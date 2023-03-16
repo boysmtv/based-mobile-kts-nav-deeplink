@@ -287,6 +287,10 @@ object Presentation {
         "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipeRefresh}"
 }
 
+object CoreModules {
+    const val core = ":core"
+}
+
 fun DependencyHandlerScope.testingDependencies() {
     "testImplementation"(Testing.jUnit)
     "testImplementation"(Testing.truth)

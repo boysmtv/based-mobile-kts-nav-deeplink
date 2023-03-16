@@ -6,6 +6,8 @@ plugins {
     id(BuildPlugins.hiltPlugin)
 }
 
+val customModulePath: groovy.lang.Closure<Any> by ext
+
 android {
     compileSdk = (ConfigData.compileSdkVersion)
 
@@ -46,11 +48,11 @@ android {
         resources.pickFirsts.add("META-INF/*")
         resources.pickFirsts.add("META-INF/MANIFEST.MF")
     }
-    dynamicFeatures += setOf(":core")
 }
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*jar"))))
+    implementation(project(CoreModules.core))
 
     implementation(Jetpack.roomRuntime)
     implementation(Jetpack.room)

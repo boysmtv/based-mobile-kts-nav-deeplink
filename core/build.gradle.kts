@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
+    compileSdk = (ConfigData.compileSdkVersion)
 
     buildFeatures {
         viewBinding = true
     }
 
     buildTypes {
-        getByName("debug")
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(

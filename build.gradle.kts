@@ -17,7 +17,6 @@ buildscript {
         classpath(BuildPlugins.detekt)
         classpath(BuildPlugins.appDynamicsPlugin)
         classpath(BuildPlugins.hiltGradlePlugin)
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
     }
 
 }
@@ -25,7 +24,7 @@ buildscript {
 allprojects {
     apply(plugin = BuildPlugins.jfrogPlugin)
     apply(plugin = BuildPlugins.mavenPublish)
-    apply(plugin = "io.gitlab.arturbosch.detekt")
+    apply(plugin = BuildPlugins.detektPlugin)
 }
 
 tasks.register("clean", Delete::class) {
