@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright © 2022 PT Bank Mandiri (Persero) Tbk.
+*
+* Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+* Proprietary and confidential
+*
+-->
+<resources>
+    <style name="Bds.TextInputEditText.Auth" parent="ThemeOverlay.MaterialComponents.TextInputEditText">
+        <item name="fontFamily">@font/nunito</item>
+        <item name="colorPrimary">@color/colorTextInputEditTextSearchHint</item>
+        <item name="android:layout_height">@dimen/auth_text_input_edit_height</item>
+        <item name="android:textSize">@dimen/search_app_bar_text_size</item>
+        <item name="android:textColor">@color/colorTextInputEditTextSearchHint</item>
+        <item name="android:paddingBottom">@dimen/zero_dp</item>
+        <item name="android:paddingTop">@dimen/zero_dp</item>
+        <item name="android:paddingEnd">@dimen/zero_dp</item>
+        <item name="android:background">@drawable/bg_shape_text_input</item>
+        <item name="android:paddingStart">@dimen/auth_text_input_edit_padding_start</item>
+        <item name="android:drawablePadding">@dimen/auth_text_input_edit_drawable_padding</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

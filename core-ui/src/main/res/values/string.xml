@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_general_error_try_again">Try Again</string>
+    <string name="button_general_error_close">Close</string>
+
+    <string name="dialog_logout_tv_back">Logout</string>
+
+    <!--region ProgressBar-->
+    <string name="progress_bar_waiting_label">Loading</string>
+    <!--endregion-->
+
+    <string name="button_general_error_max_retry_close">Tutup Aplikasi</string>
+
+
+    <!--region dialog with action-->
+    <string name="dialog_with_action_retry_label">Try Again</string>
+
+    <string name="button_general_error_back">Kembali</string>
+</resources>

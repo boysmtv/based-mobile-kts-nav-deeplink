@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright © 2020 PT Bank Mandiri (Persero) Tbk.
+  ~
+  ~ Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  -->
+
+<resources>
+    <!--region Dialog Progress Text View Title-->
+    <integer name="dialog_progress_tv_title_font_weight">700</integer>
+    <!--endregion-->
+</resources>

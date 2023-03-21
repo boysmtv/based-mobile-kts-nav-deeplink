@@ -52,8 +52,14 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*jar"))))
-    implementation(project(CoreModules.core))
 
+    implementation(project(CoreModules.core))
+    implementation(project(CoreModules.coreUi))
+    implementation(project(CoreModules.coreNav))
+    implementation(project(CoreModules.coreEntity))
+    implementation(project(ApiModules.apiAuth))
+
+    implementation(Core.appDynamicsRuntime)
     implementation(Jetpack.roomRuntime)
     implementation(Jetpack.room)
     implementation(Jetpack.lifecycleLiveData)
@@ -69,6 +75,8 @@ dependencies {
     implementation(Network.okhttp)
     implementation(Network.okhttpLogging)
     implementation(Network.glide)
+    implementation(project(mapOf("path" to ":core-navigation")))
+    implementation(project(mapOf("path" to ":core-entity")))
     kapt(Network.glideCompiler)
     api(Network.glideOkHttpIntegration) { exclude(group = "glide-parent") }
     kapt(Network.moshiKtxCodegen)

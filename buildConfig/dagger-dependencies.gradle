@@ -1,0 +1,4 @@
+dependencies {
+    implementation ExternalLib.hilt
+    kapt ExternalLib.hiltCompiler
+}

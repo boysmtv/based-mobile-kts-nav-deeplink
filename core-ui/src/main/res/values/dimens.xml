@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region Common-->
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="icon_dimen">16dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_half">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="rv_padding_bottom">100dp</dimen>
+    <!--endregion-->
+
+    <dimen name="radius_bg_card_transaction">20dp</dimen>
+    <dimen name="radius_bg_item_change_debit_card_transaction">8dp</dimen>
+    <dimen name="width_line_selected_card_transaction">3dp</dimen>
+    <dimen name="width_line_unselected_card_transaction">2dp</dimen>
+    <dimen name="width_line_detail_card_transaction">1.5dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_type_margin_start">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_type_margin_end">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_type_margin_top">20dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_type_padding_top">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_background_header_height">130dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_content_cdm_header_height">170dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_background_cdm_header_height">140dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_deposit_card_margin_start">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_deposit_card_margin_top">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_left_side_header_margin_start">8dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_date_overview_label_margin_end">8dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_date_overview_value_margin_end">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_left_side_header_padding_vertical">2dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_left_side_header_padding_horizontal">16dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_left_side_header_margin_top">6dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_deposit_card_margin_horizontal">10dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_deposit_card_margin_vertical">4dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_deposit_card_margin_end">8dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_date_transaction_label_margin_end">8dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_title_date_transaction_margin_end">25dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_value_date_transaction_margin_end">25dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_description_value_margin_end">16dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_value_date_transaction_width">175dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_value_label_total_amount_transaction_margin_top">16dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_value_label_total_amount_transaction_margin_bottom">4dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_value_label_description_margin_bottom">20dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_label_total_amount_text_size">16sp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_tv_label_customer_data_maintenance_text_size">14sp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_withdrawal_amount_margin_top">4dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_withdrawal_amount_text_size">20sp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_close_button_width">300dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_close_button_margin_horizontal">32dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_close_button_margin_vertical">24dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_view_bottom_border_line_height">2dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_view_bottom_border_line_margin_bottom">14dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_card_width">890dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_card_height">615dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_customer_data_maintenance_card_height">450dp</dimen>
+    <dimen name="transaction_dialog_detail_transaction_card_corner_radius">8dp</dimen>
+
+    <!--width height general-->
+    <dimen name="width_0">0dp</dimen>
+    <dimen name="width_40">40dp</dimen>
+    <dimen name="height_0">0dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_130">130dp</dimen>
+    <!--end region-->
+
+    <dimen name="error_view_text_margin_vertical">4dp</dimen>
+    <dimen name="error_view_text_size">16sp</dimen>
+    <dimen name="error_view_reload_padding">8dp</dimen>
+    <dimen name="error_view_reload_text_size">16sp</dimen>
+    <dimen name="error_view_message_text_size">14sp</dimen>
+    <dimen name="error_view_padding">10dp</dimen>
+    <dimen name="error_view_image_size">225dp</dimen>
+    <dimen name="error_view_reload_margin_top">10dp</dimen>
+    <dimen name="error_view_image_margin_end">50dp</dimen>
+    <dimen name="error_view_message_margin_horizontal">20dp</dimen>
+    <dimen name="error_view_message_margin_start">40dp</dimen>
+    <dimen name="error_view_title_margin_horizontal">20dp</dimen>
+    <dimen name="error_view_title_margin_vertical">10dp</dimen>
+    <dimen name="error_view_message_max_width">500dp</dimen>
+
+
+    <!--elevation general-->
+    <dimen name="elevation_4">4dp</dimen>
+    <!--end region-->
+
+    <!--radius general-->
+    <dimen name="radius_10">10dp</dimen>
+    <!--end region-->
+
+    <!--region General Margin-->
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_56">56dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_54">54dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_72">72dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_186">186dp</dimen>
+    <dimen name="margin_290">290dp</dimen>
+    <dimen name="margin_310">310dp</dimen>
+    <dimen name="margin_342">342dp</dimen>
+    <!--endregion-->
+
+    <!--region General Padding-->
+    <dimen name="padding_0">0dp</dimen>
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_6">6dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_24">24dp</dimen>
+    <dimen name="padding_32">32dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_56">56dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_64">64dp</dimen>
+    <dimen name="paddding_72">72dp</dimen>
+    <!--endregion-->
+
+    <!--region General Size Text-->
+    <dimen name="size_6">6sp</dimen>
+    <dimen name="size_8">8sp</dimen>
+    <dimen name="size_10">10sp</dimen>
+    <dimen name="size_12">12sp</dimen>
+    <dimen name="size_14">14sp</dimen>
+    <dimen name="size_16">16sp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <dimen name="size_20">20sp</dimen>
+    <dimen name="size_22">22sp</dimen>
+    <!--endregion-->
+
+    <!--region List Item-->
+    <dimen name="item_list_margin_top">10dp</dimen>
+    <dimen name="item_list_padding">16dp</dimen>
+    <dimen name="item_list_avatar_size">48dp</dimen>
+    <dimen name="item_list_category_padding">0dp</dimen>
+    <dimen name="item_list_avatar_large_size">64dp</dimen>
+    <dimen name="item_list_content_margin_horizontal">16dp</dimen>
+    <dimen name="item_list_content_margin_start">12dp</dimen>
+    <dimen name="item_list_info_margin_start">16dp</dimen>
+    <dimen name="item_list_info_large_margin_start">12dp</dimen>
+    <dimen name="item_list_toggle_medium_spacing">16dp</dimen>
+    <dimen name="item_list_toggle_image_corner_radius">2dp</dimen>
+    <dimen name="item_list_toggle_small_spacing">8dp</dimen>
+    <dimen name="item_list_toggle_switch_width">60dp</dimen>
+    <dimen name="item_list_toggle_sub_icon_width">47dp</dimen>
+    <dimen name="item_list_toggle_sub_icon_height">30dp</dimen>
+    <dimen name="item_list_toggle_sub_button_elevation">3dp</dimen>
+    <dimen name="item_list_toggle_sub_btn_vertical_spacing">7dp</dimen>
+    <dimen name="item_list_toggle_sub_btn_horizontal_spacing">12dp</dimen>
+    <dimen name="item_list_toogle_main_icon_size">24dp</dimen>
+    <dimen name="list_item_account_background_radius">4dp</dimen>
+    <dimen name="list_item_account_background_stroke_width">2dp</dimen>
+    <dimen name="list_item_account_text_margin_top">12dp</dimen>
+    <dimen name="list_item_account_divider_margin_start">3dp</dimen>
+    <dimen name="list_item_account_balance_margin_top">4dp</dimen>
+    <dimen name="list_item_account_balance_margin_bottom">12dp</dimen>
+    <dimen name="list_item_account_text_margin_end">16dp</dimen>
+    <dimen name="list_item_account_text_line_spacing_extra">8sp</dimen>
+    <dimen name="list_item_account_text_balance_line_spacing_extra">6sp</dimen>
+    <dimen name="list_item_account_padding_horizontal">16dp</dimen>
+    <dimen name="item_list_transaction_default_underline_height">1dp</dimen>
+    <dimen name="item_list_transaction_default_font_size">14sp</dimen>
+    <dimen name="item_list_transaction_underline_gap">12dp</dimen>
+    <dimen name="list_item_with_toggle_title_margin_top_bottom">23dp</dimen>
+    <!--endregion-->
+
+    <!--region List Item Edit Payment-->
+    <dimen name="item_list_container_width">263dp</dimen>
+    <dimen name="item_list_container_margin_left">16dp</dimen>
+    <dimen name="item_list_logo_width">32dp</dimen>
+    <dimen name="item_list_logo_height">32dp</dimen>
+    <dimen name="item_list_text_container_margin_left">16dp</dimen>
+    <dimen name="item_list_checkbox_margin_top">14dp</dimen>
+    <dimen name="item_list_checkbox_margin_bottom">14dp</dimen>
+    <dimen name="item_list_checkbox_margin_right">16dp</dimen>
+    <dimen name="item_list_checkbox_margin_left">16dp</dimen>
+    <dimen name="item_list_edit_margin_top">14dp</dimen>
+    <dimen name="item_list_edit_margin_bottom">14dp</dimen>
+    <dimen name="item_list_edit_margin_left">16dp</dimen>
+    <dimen name="item_list_edit_payment_checkbox_marginEnd">8dp</dimen>
+    <dimen name="item_list_edit_payment_text_name_margin_horizontal">16dp</dimen>
+    <dimen name="item_list_edit_payment_text_payment_number_margin_top">4dp</dimen>
+    <dimen name="item_list_edit_payment_image_pencil_margin_start">16dp</dimen>
+    <dimen name="item_list_edit_payment_image_pencil_margin_end">24dp</dimen>
+    <dimen name="item_list_edit_payment_image_favorite_margin_start">16dp</dimen>
+    <!--endregion-->
+
+    <!--region Typography-->
+    <dimen name="headline1_font_size">48sp</dimen>
+    <dimen name="headline2_font_size">36sp</dimen>
+    <dimen name="headline3_font_size">16sp</dimen>
+    <dimen name="headline4_font_size">18sp</dimen>
+    <dimen name="headline5_font_size">16sp</dimen>
+    <dimen name="widget_headline_font_size">18sp</dimen>
+    <dimen name="card_headline_font_size">18sp</dimen>
+    <dimen name="overline_font_size">14sp</dimen>
+    <dimen name="paragraph_lead_font_size">21sp</dimen>
+    <dimen name="body_two_lines_font_size">16sp</dimen>
+    <dimen name="body_font_size">16sp</dimen>
+    <dimen name="body_label_value_font_size">20sp</dimen>
+    <dimen name="body_sub_label_value_font_size">14sp</dimen>
+    <dimen name="note_font_size">12sp</dimen>
+    <dimen name="button_1_font_size">16sp</dimen>
+    <dimen name="button_2_font_size">14sp</dimen>
+    <dimen name="primary_font_size">36sp</dimen>
+    <dimen name="medium_font_size">24sp</dimen>
+    <dimen name="small_font_size">16sp</dimen>
+    <dimen name="mandiri_otp_font_size">22sp</dimen>
+    <!--endregion-->
+
+    <!--region Button-->
+    <dimen name="btn_corner_radius">28dp</dimen>
+    <dimen name="btn_border_stroke_width">2dp</dimen>
+    <dimen name="btn_horizontal_padding">12dp</dimen>
+    <dimen name="btn_vertical_padding">16dp</dimen>
+    <dimen name="btn_layout_height">56dp</dimen>
+    <dimen name="btn_total_margin_start">20dp</dimen>
+    <dimen name="btn_total_margin_end">8dp</dimen>
+    <dimen name="btn_toggle_min_height">32dp</dimen>
+    <dimen name="btn_toggle_min_width">64dp</dimen>
+    <dimen name="btn_toggle_text_horizontal_padding">24dp</dimen>
+    <dimen name="btn_toggle_text_size">14sp</dimen>
+    <dimen name="btn_toggle_thumb_border_width">2dp</dimen>
+    <dimen name="btn_shadow_animator_pressed_value">4dp</dimen>
+    <dimen name="btn_shadow_animator_released_value">0dp</dimen>
+    <dimen name="btn_radio_item_horizontal_margin">16dp</dimen>
+    <dimen name="btn_radio_button_item_vertical_margin">8dp</dimen>
+    <dimen name="btn_secondary_white_translation_z">3dp</dimen>
+    <dimen name="btn_secondary_white_icon_size">24dp</dimen>
+    <dimen name="btn_default_elevation">2dp</dimen>
+    <dimen name="btn_default_margin_bottom">40dp</dimen>
+    <dimen name="btn_default_margin_horizontal">16dp</dimen>
+    <!--endregion-->
+
+    <!--region Card-->
+    <dimen name="card_summary_elevation">2dp</dimen>
+    <dimen name="card_summary_corner_radius">8dp</dimen>
+    <dimen name="card_summary_separator_height">1dp</dimen>
+    <dimen name="card_summary_section_spacing">24dp</dimen>
+    <dimen name="card_summary_section_content_top_spacing">8dp</dimen>
+    <dimen name="card_summary_section_content_reciever_account_padding_horizontal">8dp</dimen>
+    <dimen name="card_summary_button_icon_label_gap">8dp</dimen>
+    <dimen name="card_summary_padding">16dp</dimen>
+    <dimen name="card_summary_icon_size">24dp</dimen>
+    <dimen name="card_summary_token_margin_start">16dp</dimen>
+    <dimen name="card_summary_token_margin_end">3dp</dimen>
+    <dimen name="card_summary_token_padding_bottom">24dp</dimen>
+    <!--endregion-->
+
+    <!--region Background Progress Bar-->
+    <dimen name="progress_bar_background_shadow_width">62dp</dimen>
+    <dimen name="progress_bar_background_shadow_height">62dp</dimen>
+    <dimen name="progress_bar_background_surface_width">60dp</dimen>
+    <dimen name="progress_bar_background_surface_height">60dp</dimen>
+    <dimen name="progress_bar_background_surface_top">1dp</dimen>
+    <dimen name="progress_bar_background_surface_left">1dp</dimen>
+    <dimen name="progress_bar_background_surface_bottom">2dp</dimen>
+    <dimen name="progress_bar_background_surface_right">1dp</dimen>
+    <!--endregion-->
+
+    <!--region Particular Progress Bar-->
+    <dimen name="progress_bar_particular_size">62dp</dimen>
+    <dimen name="progress_bar_particular_padding">12dp</dimen>
+    <dimen name="progress_bar_particular_elevation">4dp</dimen>
+    <!--endregion-->
+
+    <!--region Dialog-->
+    <dimen name="dialog_modal_padding_bottom">53dp</dimen>
+    <dimen name="dialog_modal_cl_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_modal_cl_content_margin_bottom">24dp</dimen>
+    <dimen name="dialog_modal_image_view_caution_padding_end">15dp</dimen>
+    <dimen name="dialog_modal_image_view_close_padding_start">15dp</dimen>
+    <dimen name="dialog_modal_btn_margin_start">16dp</dimen>
+    <dimen name="dialog_modal_btn_margin_top">40dp</dimen>
+    <dimen name="dialog_modal_btn_margin_end">16dp</dimen>
+    <dimen name="dialog_modal_btn_secondary_margin_top">16dp</dimen>
+    <dimen name="dialog_modal_cl_content_margin_top">24dp</dimen>
+    <dimen name="dialog_modal_bg_top_left_radius">2dp</dimen>
+    <dimen name="dialog_modal_bg_top_right_radius">2dp</dimen>
+    <dimen name="dialog_bottom_sheet_corner_radius">8dp</dimen>
+    <dimen name="dialog_bottom_sheet_margin_outer">16dp</dimen>
+    <dimen name="dialog_transaction_detail_round_corner">35dp</dimen>
+    <!--endregion-->
+
+    <!--region Expanded Dialog-->
+    <dimen name="dialog_expanded_padding">24dp</dimen>
+    <dimen name="dialog_expanded_title_margin_top">53dp</dimen>
+    <dimen name="dialog_expanded_message_margin_top">13dp</dimen>
+    <dimen name="dialog_expanded_icon_margin_top">64dp</dimen>
+    <dimen name="dialog_expanded_ic_close_margin_top">14dp</dimen>
+    <dimen name="dialog_expanded_title_with_ic_close_margin_top">14dp</dimen>
+    <dimen name="dialog_expanded_footer_margin_horizontal">16dp</dimen>
+    <dimen name="dialog_expanded_footer_margin_bottom">20dp</dimen>
+    <dimen name="dialog_expanded_footer_line_spacing">5sp</dimen>
+    <!--endregion-->
+
+    <!--region NumPad-->
+    <dimen name="numpad_indicator_space">8dp</dimen>
+    <dimen name="numpad_indicator_size">12dp</dimen>
+    <dimen name="numpad_font_size">36sp</dimen>
+    <dimen name="numpad_margin_horizontal">16dp</dimen>
+    <!--endregion-->
+
+    <!-- Region Bottom Sheet with Loading State -->
+    <dimen name="bottom_sheet_state_cardview_height">201dp</dimen>
+    <dimen name="bottom_sheet_state_pb_margin_top">40dp</dimen>
+    <dimen name="bottom_sheet_state_pb_size">56dp</dimen>
+    <!-- End Region -->
+
+    <!--region bottomsheet lost connection-->
+    <dimen name="dialog_bottomsheet_screen_margin_bottom">80dp</dimen>
+    <!--endregion-->
+
+    <!--region MandiriTextField -->
+    <dimen name="mandiri_text_field_validator_margin">10dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_padding">12dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_elevation">4dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_radius">4dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_line_height">4dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_line_margin_top">-1dp</dimen>
+    <dimen name="mandiri_text_field_padding_small">8dp</dimen>
+    <dimen name="mandiri_text_field_toggle_margin_top">16dp</dimen>
+    <dimen name="mandiri_text_field_clear_text_margin_end">12dp</dimen>
+    <dimen name="mandiri_text_field_margin">1dp</dimen>
+    <dimen name="mandiri_text_field_padding_top">10dp</dimen>
+    <dimen name="mandiri_text_field_close_icon_padding_end">40dp</dimen>
+    <dimen name="mandiri_text_field_card_number_margin_top">-1dp</dimen>
+    <dimen name="mandiri_text_field_icon_height">28dp</dimen>
+    <dimen name="mandiri_text_field_icon_size">50dp</dimen>
+    <dimen name="mandiri_text_field_icon_padding">4dp</dimen>
+    <dimen name="mandiri_text_field_clear_text_margin_top">22dp</dimen>
+    <dimen name="mandiri_text_field_container_tailing_margin_top">20dp</dimen>
+    <dimen name="mandiri_text_field_tailing_margin_horizontal">12dp</dimen>
+    <dimen name="mandiri_text_field_icon_margin_bottom">9dp</dimen>
+    <dimen name="mandiri_text_field_checkbox_margin_bottom">16dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_padding_horizontal">0dp</dimen>
+    <dimen name="mandiri_text_field_otp_padding_horizontal">0dp</dimen>
+    <dimen name="mandiri_text_field_validator_note_margin_top">8dp</dimen>
+    <dimen name="mandiri_text_field_height">56dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_padding_top">4dp</dimen>
+    <dimen name="mandiri_text_field_validator_screen_padding_bottom">16dp</dimen>
+    <dimen name="mandiri_text_field_indicator_line_height">3dp</dimen>
+    <dimen name="mandiri_text_field_indicator_line_margin_top">-3dp</dimen>
+    <dimen name="mandiri_text_field_toggle_icon_size">24dp</dimen>
+    <dimen name="mandiri_text_field_inline_error_margin_top">2dp</dimen>
+    <dimen name="mandiri_text_field_inline_error_margin_start">16dp</dimen>
+    <!--endregion-->
+
+    <!--region MandiriPasswordField -->
+    <dimen name="mandiri_password_field_corner_radius">28dp</dimen>
+    <dimen name="mandiri_password_field_stroke">5dp</dimen>
+    <dimen name="mandiri_password_field_height">56dp</dimen>
+    <dimen name="mandiri_password_field_text_size">18sp</dimen>
+    <dimen name="mandiri_password_field_horizontal_padding">24dp</dimen>
+    <dimen name="mandiri_password_field_padding_vertical">8dp</dimen>
+    <dimen name="mandiri_password_field_stroke_width">2dp</dimen>
+    <dimen name="mandiri_password_field_error_message_horizontal_margin">38dp</dimen>
+    <!--endregion-->
+
+    <!--region Nbds Input Field-->
+    <dimen name="nbds_custom_input_field_layout_minimal_height">56dp</dimen>
+    <dimen name="nbds_custom_input_field_validator_screen_radius">4dp</dimen>
+    <dimen name="nbds_custom_input_field_auto_complete_text_minimal_height">56dp</dimen>
+    <dimen name="nbds_custom_input_field_auto_complete_text_padding_start">16dp</dimen>
+    <dimen name="nbds_custom_input_field_auto_complete_text_padding_top">24dp</dimen>
+    <dimen name="nbds_custom_input_field_auto_complete_text_padding_end">40dp</dimen>
+    <dimen name="nbds_custom_input_field_auto_complete_text_padding_bottom">10dp</dimen>
+    <dimen name="nbds_custom_input_field_indicator_line_height">3dp</dimen>
+    <dimen name="nbds_custom_input_field_indicator_line_margin_top">-3dp</dimen>
+    <dimen name="nbds_custom_input_field_icon_margin_horizontal">12dp</dimen>
+    <dimen name="nbds_custom_input_field_container_tailing_margin_bottom">20dp</dimen>
+    <dimen name="nbds_custom_input_field_tailing_margin_end">12dp</dimen>
+    <dimen name="nbds_custom_input_field_edit_text_minimal_height">56dp</dimen>
+    <dimen name="nbds_custom_input_field_edit_text_padding_end">40dp</dimen>
+    <!--endregion-->
+
+    <!--region NbdsPhoneNumberTextField-->
+    <dimen name="nbds_phone_number_field_parent_padding_horizontal">16dp</dimen>
+    <dimen name="nbds_phone_number_field_country_drawable_padding">5dp</dimen>
+    <dimen name="nbds_phone_number_field_">24dp</dimen>
+    <dimen name="nbds_phone_number_field_tv_country_height">24dp</dimen>
+    <dimen name="nbds_phone_number_field_tv_country_text_size">16sp</dimen>
+    <dimen name="nbds_phone_number_field_separator_widht">1dp</dimen>
+    <dimen name="nbds_phone_number_field_separator_margin_start">10dp</dimen>
+    <dimen name="nbds_phone_number_field_separator_margin_vertical">10dp</dimen>
+    <dimen name="nbds_phone_number_field_til_height">56dp</dimen>
+    <dimen name="nbds_phone_number_field_til_margin_start">20dp</dimen>
+    <dimen name="nbds_phone_number_field_til_text_size">14sp</dimen>
+    <dimen name="nbds_phone_number_field_et_height">56dp</dimen>
+    <dimen name="nbds_phone_number_field_tv_error_padding_horizontal">12dp</dimen>
+    <dimen name="nbds_phone_number_field_tv_error_text_size">12sp</dimen>
+    <!--endregion-->
+
+    <!--region Nbds Spinner with Search-->
+    <dimen name="nbds_spinner_with_search_layout_minimal_height">56dp</dimen>
+    <dimen name="nbds_spinner_with_search_layout_radius">4dp</dimen>
+    <dimen name="nbds_spinner_with_search_content_minimal_height">56dp</dimen>
+    <dimen name="nbds_spinner_with_search_content_padding_end">40dp</dimen>
+    <dimen name="nbds_spinner_with_search_indicator_line_height">3dp</dimen>
+    <dimen name="nbds_spinner_with_search_indicator_line_margin_top">-3dp</dimen>
+    <!--endregion-->
+
+    <!--region Item Nbds Spinner with Search-->
+    <dimen name="item_nbds_spinner_with_search_layout_height">44dp</dimen>
+    <dimen name="item_nbds_spinner_with_search_layout_padding_horizontal">16dp</dimen>
+    <dimen name="item_nbds_spinner_with_search_layout_padding_top">10dp</dimen>
+    <dimen name="item_nbds_spinner_with_search_layout_padding_bottom">4dp</dimen>
+    <dimen name="item_nbds_spinner_with_search_text_size">16sp</dimen>
+    <dimen name="item_nbds_spinner_with_search_margin_bottom">10dp</dimen>
+    <dimen name="item_nbds_spinner_with_search_content_divider_height">2dp</dimen>
+    <!--endregion-->
+
+    <!--region Progress Dialog-->
+    <dimen name="progress_dialog_width">36dp</dimen>
+    <dimen name="progress_dialog_height">36dp</dimen>
+    <dimen name="dialog_modal_btn_margin_bottom">56dp</dimen>
+    <dimen name="dialog_web_view_pb_height">4dp</dimen>
+    <!--endregion-->
+
+    <!--region Beneficiary Item-->
+    <dimen name="beneficiary_item_padding">16dp</dimen>
+    <dimen name="beneficiary_item_icon_elevation">2dp</dimen>
+    <dimen name="beneficiary_item_icon_margin">2dp</dimen>
+    <dimen name="beneficiary_item_title_margin_top">8dp</dimen>
+    <!--endregion-->
+
+    <!--region Beneficiary Bottom Sheet-->
+    <dimen name="dialog_beneficiary_padding">16dp</dimen>
+    <!--endregion-->
+
+    <!-- region Dialog Custom Dropdown Options-->
+    <dimen name="dialog_custom_dropdown_options_iv_close_margin_top">24dp</dimen>
+    <dimen name="dialog_custom_dropdown_options_iv_close_margin_end">14dp</dimen>
+    <dimen name="dialog_custom_dropdown_options_recycler_view_margin_top">16dp</dimen>
+    <dimen name="dialog_custom_dropdown_options_recycler_view_gone_margin_bottom">40dp</dimen>
+    <dimen name="dialog_custom_dropdown_options_view_gone_margin_bottom">96dp</dimen>
+    <dimen name="dialog_custom_dropdown_options_view_margin_top">56dp</dimen>
+    <dimen name="dialog_custom_dropdown_options_view_height">101dp</dimen>
+    <!--endregion-->
+
+    <!--Mandiri Input Layout-->
+    <dimen name="mandiri_input_layout_resource_padding">6dp</dimen>
+    <dimen name="mandiri_input_layout_text_size">36sp</dimen>
+    <!--endregion-->
+
+    <!--region Search View-->
+    <dimen name="searchview_toolbar_height">50dp</dimen>
+    <dimen name="searchview_min_width">300dp</dimen>
+    <dimen name="searchview_padding_vertical">12dp</dimen>
+    <dimen name="searchview_padding_left">12dp</dimen>
+    <dimen name="searchview_text_size">16sp</dimen>
+    <dimen name="searchview_resource_padding">12dp</dimen>
+    <dimen name="searchview_divider_height">2dp</dimen>
+    <dimen name="searchview_divider_margin_top">10dp</dimen>
+    <dimen name="searchview_title_margin_top">28dp</dimen>
+    <dimen name="searchview_margin_start">20dp</dimen>
+    <dimen name="searchview_grouping_margin_top">20dp</dimen>
+    <dimen name="searchview_grouping_margin_start">20dp</dimen>
+    <dimen name="searchview_grouping_text_size">12sp</dimen>
+    <dimen name="searchview_grouping_text_padding_horizontal">12dp</dimen>
+    <dimen name="searchview_grouping_text_padding_vertical">4dp</dimen>
+    <dimen name="searchview_group_divider_height">2dp</dimen>
+    <dimen name="searchview_group_radius_bg">1000dp</dimen>
+    <dimen name="searchview_radius_bg">32dp</dimen>
+    <dimen name="searchview_layout_search_margin_end">16dp</dimen>
+    <dimen name="searchview_btn_margin_end">12dp</dimen>
+    <dimen name="searchview_layout_group_margin_end">16dp</dimen>
+    <dimen name="search_bar_borderless_icon_spacing">8dp</dimen>
+    <dimen name="search_bar_borderless_clear_btn_spacing">8dp</dimen>
+    <dimen name="search_bar_borderless_clear_btn_padding">4dp</dimen>
+    <dimen name="search_bar_borderless_cancel_btn_padding">8dp</dimen>
+    <dimen name="search_bar_borderless_cancel_btn_radius">4dp</dimen>
+    <dimen name="search_bar_borderless_container_horizontal_padding">16dp</dimen>
+    <dimen name="search_bar_borderless_container_vertical_padding">8dp</dimen>
+    <dimen name="search_bar_borderless_text_input_size">16sp</dimen>
+    <!--endregion-->
+
+    <!--region Tab Layout-->
+    <dimen name="tab_layout_text_line_spacing_extra">6sp</dimen>
+    <!--endregion-->
+
+    <!--region Item Card Option-->
+    <dimen name="item_card_option_match_parent">0dp</dimen>
+    <dimen name="item_card_option_elevation">4dp</dimen>
+    <dimen name="item_card_option_card_stroke_width">1dp</dimen>
+    <dimen name="item_card_option_card_margin_horizontal">24dp</dimen>
+    <dimen name="item_card_option_card_margin_vertical">4dp</dimen>
+    <dimen name="item_card_option_text_margin_horizontal">16dp</dimen>
+    <dimen name="item_card_option_text_margin_top">4dp</dimen>
+    <dimen name="item_card_option_padding_start">64dp</dimen>
+    <dimen name="item_card_option_padding_vertical">22dp</dimen>
+    <dimen name="item_card_option_padding_end">18dp</dimen>
+    <!--endregion-->
+
+    <!--region Custom InputField-->
+    <dimen name="custom_input_cursorSize">1dp</dimen>
+    <!--endregion-->
+
+    <!--region Progress Bar-->
+    <dimen name="progress_bar_elevation">4dp</dimen>
+    <dimen name="progress_bar_padding">8dp</dimen>
+    <dimen name="progress_bar_margin">2dp</dimen>
+    <!--endregion-->
+
+    <!--region SearchAppBar-->
+    <dimen name="search_app_bar_text_size">16sp</dimen>
+    <!--endregion-->
+
+    <!-- region Custom Calendar -->
+    <dimen name="calendar_width">400dp</dimen>
+    <dimen name="calendar_title_width">350dp</dimen>
+    <dimen name="calendar_title_margin_left">32dp</dimen>
+    <dimen name="calendar_title_margin_top">20dp</dimen>
+    <dimen name="calendar_date_title_margin_left">32dp</dimen>
+    <dimen name="calendar_date_title_margin_top">4dp</dimen>
+    <dimen name="calendar_date_title_margin_bottom">20dp</dimen>
+    <dimen name="calendar_month_title_margin_top">24dp</dimen>
+    <dimen name="calendar_button_margin">32dp</dimen>
+    <dimen name="calendar_layout_margin">24dp</dimen>
+    <dimen name="calendar_layout_margin_top">12dp</dimen>
+    <dimen name="calendar_grid_margin_top">32dp</dimen>
+    <dimen name="calendar_button_16dp">16dp</dimen>
+    <dimen name="calendar_4dp">4dp</dimen>
+    <dimen name="calendar_2dp">2dp</dimen>
+    <dimen name="calendar_header_0.1dp">0.1dp</dimen>
+    <dimen name="calendar_0dp">0dp</dimen>
+    <dimen name="calendar_bias_0.0">0.0</dimen>
+    <dimen name="calendar_bias_1.0">1.0</dimen>
+    <dimen name="bias_0.97">0.97</dimen>
+    <dimen name="calendar_weight_1">1</dimen>
+    <dimen name="calendar_16dp">16dp</dimen>
+    <!-- endregion -->
+
+    <!--region Dialog Progress Card View -->
+    <dimen name="dialog_progress_cv_width">385dp</dimen>
+    <dimen name="dialog_progress_cv_corner_radius">8dp</dimen>
+    <!--endregion-->
+
+    <!--region Dialog Progress Text View Title -->
+    <dimen name="dialog_progress_title_margin_top">32dp</dimen>
+    <dimen name="dialog_progress_title_margin_text_size">20sp</dimen>
+    <!--endregion-->
+
+    <!--region Dialog Progress Progress Bar -->
+    <dimen name="dialog_progress_pb_width">50dp</dimen>
+    <dimen name="dialog_progress_pb_height">50dp</dimen>
+    <dimen name="dialog_progress_pb_margin_top">25dp</dimen>
+    <dimen name="dialog_progress_pb_margin_bottom">55dp</dimen>
+    <!--endregion-->
+
+    <dimen name="button_height_default">56dp</dimen>
+    <dimen name="common_margin_fragment_container_screen">20dp</dimen>
+
+    <!-- REGION Dialog General eror-->
+    <dimen name="dialog_general_button_min_width">195dp</dimen>
+    <dimen name="dialog_general_content_text_size">16sp</dimen>
+    <dimen name="dialog_general_error_content_min_width">385dp</dimen>
+    <dimen name="dialog_general_error_layout_width">385dp</dimen>
+    <dimen name="dialog_general_margin_card_view">70dp</dimen>
+    <dimen name="dialog_general_margin_top">10dp</dimen>
+    <dimen name="dialog_general_text_view_width">400dp</dimen>
+    <dimen name="dialog_general_title_text_size">20sp</dimen>
+    <dimen name="image_dialog_button">50dp</dimen>
+    <dimen name="image_dialog_button_error">100dp</dimen>
+    <dimen name="image_dialog_general_error_button">100dp</dimen>
+    <dimen name="dialog_general_card_elevation">6dp</dimen>
+    <dimen name="dialog_general_card_radius">10dp</dimen>
+    <dimen name="dialog_general_card_parent_padding">24dp</dimen>
+    <dimen name="dialog_general_common_dialog_padding">10dp</dimen>
+    <dimen name="dialog_general_primary_button_margin_top">16dp</dimen>
+    <dimen name="dialog_general_secondary_button_margin_top">10dp</dimen>
+    <!--endregion-->
+
+    <!--region Dialog no internet-->
+    <dimen name="dialog_no_internet_available_padding">12dp</dimen>
+    <dimen name="dialog_no_internet_card_elevation">6dp</dimen>
+    <dimen name="dialog_no_internet_card_radius">10dp</dimen>
+    <dimen name="dialog_no_internet_image_size">100dp</dimen>
+    <dimen name="dialog_no_internet_margin">35dp</dimen>
+    <dimen name="dialog_no_internet_margin_top">10dp</dimen>
+    <dimen name="dialog_no_internet_message_margin_top">19dp</dimen>
+    <dimen name="dialog_no_internet_message_text_size">16sp</dimen>
+    <dimen name="dialog_no_internet_message_width">339dp</dimen>
+    <dimen name="dialog_no_internet_padding">50dp</dimen>
+    <dimen name="dialog_no_internet_title_margin_top">9dp</dimen>
+    <dimen name="dialog_no_internet_title_text_size">20sp</dimen>
+    <!--endregion-->
+
+    <!--region Dialog Input OTP-->
+    <dimen name="dialog_input_otp_style_card_width">503dp</dimen>
+    <dimen name="dialog_input_otp_style_card_height">617dp</dimen>
+    <dimen name="dialog_input_otp_corner_radius">24dp</dimen>
+    <!--endregion-->
+
+    <!--region dialog popup message-->
+    <dimen name="dialog_popup_message_card_corner_radius">8dp</dimen>
+    <dimen name="dialog_popup_message_card_elevation">8dp</dimen>
+    <dimen name="dialog_popup_message_card_margin">8dp</dimen>
+    <dimen name="dialog_popup_message_card_padding">24dp</dimen>
+    <dimen name="dialog_popup_message_card_width">415dp</dimen>
+    <dimen name="dialog_popup_message_content_width">415dp</dimen>
+    <dimen name="dialog_popup_message_desc_height">20dp</dimen>
+    <dimen name="dialog_popup_message_desc_margin_bottom">32dp</dimen>
+    <dimen name="dialog_popup_message_desc_margin_top">16dp</dimen>
+    <dimen name="dialog_popup_message_desc_width">0sp</dimen>
+    <dimen name="dialog_popup_message_loading_height">35dp</dimen>
+    <dimen name="dialog_popup_message_loading_margin_bottom">16dp</dimen>
+    <dimen name="dialog_popup_message_loading_margin_top">32dp</dimen>
+    <dimen name="dialog_popup_message_loading_width">35dp</dimen>
+    <dimen name="dialog_popup_message_status_height">35dp</dimen>
+    <dimen name="dialog_popup_message_status_margin_bottom">16dp</dimen>
+    <dimen name="dialog_popup_message_status_margin_top">32dp</dimen>
+    <dimen name="dialog_popup_message_status_width">35dp</dimen>
+    <dimen name="dialog_popup_message_title_margin_top">24dp</dimen>
+    <dimen name="dialog_popup_message_title_text_size">20sp</dimen>
+    <!--endregion-->
+
+    <!--region dialog logout-->
+    <dimen name="dialog_logout_parent_card_width">342dp</dimen>
+    <dimen name="dialog_logout_parent_card_margin">70dp</dimen>
+    <dimen name="dialog_logout_parent_card_radius">10dp</dimen>
+    <dimen name="dialog_logout_parent_card_elevation">6dp</dimen>
+    <dimen name="dialog_logout_content_padding">24dp</dimen>
+    <dimen name="dialog_logout_title_text_size">20sp</dimen>
+    <dimen name="dialog_logout_desc_margin_top">10dp</dimen>
+    <dimen name="dialog_logout_desc_text_size">18sp</dimen>
+    <dimen name="dialog_logout_primary_button_parent_margin_top">16dp</dimen>
+    <dimen name="dialog_logout_primary_margin_start">18dp</dimen>
+    <dimen name="dialog_logout_primary_button_padding_vertical">16dp</dimen>
+    <dimen name="dialog_logout_primary_button_text_size">16sp</dimen>
+    <dimen name="dialog_logout_secondary_button_parent_margin_top">16dp</dimen>
+    <dimen name="dialog_logout_secondary_margin_start">18dp</dimen>
+    <dimen name="dialog_logout_secondary_button_padding_vertical">16dp</dimen>
+    <dimen name="dialog_logout_secondary_button_text_size">16sp</dimen>
+    <dimen name="dialog_logout_back_button_text_size">16sp</dimen>
+    <dimen name="dialog_logout_back_button_margin_top">24dp</dimen>
+    <!--endregion-->
+
+    <!--region dialog with action-->
+    <dimen name="dialog_with_action_card_margin">70dp</dimen>
+    <dimen name="dialog_with_action_card_radius">10dp</dimen>
+    <dimen name="dialog_with_action_card_elevation">6dp</dimen>
+    <dimen name="dialog_with_action_content_padding">24dp</dimen>
+    <dimen name="dialog_with_action_image_warning_width">100dp</dimen>
+    <dimen name="dialog_with_action_image_warning_height">100dp</dimen>
+    <dimen name="dialog_with_action_title_margin_top">10dp</dimen>
+    <dimen name="dialog_with_action_content_single_button_margin_top">10dp</dimen>
+    <dimen name="dialog_with_action_content_single_button_width">400dp</dimen>
+    <dimen name="dialog_with_action_content_secondary_button_margin_top">24dp</dimen>
+    <dimen name="dialog_with_action_button_margin_horizontal">5dp</dimen>
+    <!--endregion-->
+
+    <!--region item summary list-->
+    <dimen name="item_summary_list_container_padding">4dp</dimen>
+    <dimen name="item_summary_list_content_margin">2dp</dimen>
+    <dimen name="item_summary_list_content_elevation">4dp</dimen>
+    <dimen name="item_summary_list_content_radius">10dp</dimen>
+    <dimen name="item_summary_list_item_padding_horizontal">12dp</dimen>
+    <dimen name="item_summary_list_item_padding_vertical">6dp</dimen>
+    <dimen name="item_summary_list_value_text_size">12sp</dimen>
+    <!--endregion-->
+
+    <!--region content webview tnc-->
+    <dimen name="icon_warning_dialog_term_and_condition_layout_width">60dp</dimen>
+    <dimen name="icon_warning_dialog_term_and_condition_layout_height">60dp</dimen>
+    <dimen name="icon_warning_dialog_term_and_condition_margin_top">22dp</dimen>
+    <dimen name="web_view_content_margin_top">22dp</dimen>
+    <!--endregion-->
+
+    <!--region item webview tnc-->
+    <dimen name="tnc_item_content_margin_horizontal">16dp</dimen>
+    <dimen name="agree_button_tnc_layout_width">160dp</dimen>
+    <dimen name="agree_button_tnc_layout_height">40dp</dimen>
+    <dimen name="agree_button_tnc_margin_bottom">24dp</dimen>
+    <dimen name="agree_button_tnc_min_height">56dp</dimen>
+    <!--endregion-->
+
+    <!--region content tnc view-->
+    <dimen name="webview_tnc_margin_horizontal">32dp</dimen>
+    <dimen name="webview_tnc_padding_top">2dp</dimen>
+    <dimen name="agree_tnc_button_margin_horizontal">16dp</dimen>
+    <dimen name="agree_tnc_button_margin_vertical">24dp</dimen>
+    <dimen name="agree_tnc_button_min_height">56dp</dimen>
+    <!--endregion-->
+
+    <!--region tnc scroll bar view-->
+    <dimen name="tnc_scrollbar_width">16dp</dimen>
+    <dimen name="tnc_scrollbar_height">40dp</dimen>
+    <dimen name="tnc_scrollbar_size">8dp</dimen>
+    <dimen name="tnc_scrollbar_size_height">56dp</dimen>
+    <dimen name="tnc_scrollbar_size_width">56dp</dimen>
+    <!--endregion-->
+
+    <!--region Dialog Calender-->
+    <dimen name="dialog_calender_width_size">400dp</dimen>
+    <dimen name="dialog_calender_button_margin_start">16dp</dimen>
+    <dimen name="dialog_calender_button_margin_end">16dp</dimen>
+    <dimen name="dialog_calender_linear_layout_margin_horizontal">16dp</dimen>
+    <dimen name="dialog_calender_linear_layout_margin_top">12dp</dimen>
+    <dimen name="dialog_calender_button_margin">16dp</dimen>
+    <dimen name="dialog_calender_button_padding">16dp</dimen>
+    <dimen name="dialog_calender_button_padding_horizontal">16dp</dimen>
+    <dimen name="dialog_calender_button_padding_vertical">6dp</dimen>
+    <dimen name="dialog_calender_text_view_margin_top">24dp</dimen>
+    <dimen name="dialog_calender_radius">4dp</dimen>
+    <!--endregion-->
+
+    <!--region Content Card Detail-->
+    <dimen name="card_detail_amount_margin_top">5dp</dimen>
+    <dimen name="card_detail_status_margin_top">5dp</dimen>
+    <dimen name="card_detail_width">300dp</dimen>
+    <dimen name="card_detail_height">140dp</dimen>
+    <dimen name="card_detail_margin_end">20dp</dimen>
+    <dimen name="card_detail_padding_horizontal">15dp</dimen>
+    <dimen name="card_detail_padding_vertical">8dp</dimen>
+    <dimen name="card_detail_amount_text_size">20sp</dimen>
+    <dimen name="card_detail_status_text_size">12sp</dimen>
+    <dimen name="card_detail_status_card_padding">4dp</dimen>
+    <dimen name="card_detail_status_card_padding_horizontal">10dp</dimen>
+    <dimen name="card_detail_status_card_padding_vertical">2dp</dimen>
+    <!--endregion-->
+
+    <!--region dialog cancellation-->
+    <dimen name="dialog_cancellation_back_button_margin_end">10dp</dimen>
+    <dimen name="dialog_cancellation_back_button_margin_start">10dp</dimen>
+    <dimen name="dialog_cancellation_back_button_margin_top">10dp</dimen>
+    <dimen name="dialog_cancellation_back_button_margin_bottom">10dp</dimen>
+    <dimen name="dialog_cancellation_back_button_width">120dp</dimen>
+    <dimen name="dialog_cancellation_back_button_height">48dp</dimen>
+    <dimen name="dialog_cancellation_next_button_margin_end">10dp</dimen>
+    <dimen name="dialog_cancellation_next_button_margin_start">10dp</dimen>
+    <dimen name="dialog_cancellation_next_button_margin_top">10dp</dimen>
+    <dimen name="dialog_cancellation_next_button_margin_bottom">10dp</dimen>
+    <dimen name="dialog_cancellation_next_button_width">160dp</dimen>
+    <dimen name="dialog_cancellation_next_button_height">48dp</dimen>
+    <dimen name="dialog_cancellation_card_corner_radius">18dp</dimen>
+    <dimen name="dialog_cancellation_card_height">630dp</dimen>
+    <dimen name="dialog_cancellation_card_width">566dp</dimen>
+    <dimen name="dialog_cancellation_choose_reason_height">280dp</dimen>
+    <dimen name="dialog_cancellation_choose_reason_margin_top">10dp</dimen>
+    <dimen name="dialog_cancellation_desc_margin_end">24dp</dimen>
+    <dimen name="dialog_cancellation_desc_margin_start">24dp</dimen>
+    <dimen name="dialog_cancellation_desc_margin_top">6dp</dimen>
+    <dimen name="dialog_cancellation_desc_text_size">16sp</dimen>
+    <dimen name="dialog_cancellation_icon_height">90dp</dimen>
+    <dimen name="dialog_cancellation_icon_margin_top">24dp</dimen>
+    <dimen name="dialog_cancellation_icon_width">90dp</dimen>
+    <dimen name="dialog_cancellation_title_margin_top">20dp</dimen>
+    <dimen name="dialog_cancellation_title_text_size">18sp</dimen>
+    <!--endregion-->
+
+    <!--dialog general error-->
+    <dimen name="dialog_cancellation_card_content_layout_width">0dp</dimen>
+    <dimen name="dialog_cancellation_card_content_layout_height">280dp</dimen>
+    <dimen name="dialog_cancellation_card_content_corner_radius">10dp</dimen>
+    <dimen name="dialog_cancellation_card_content_margin">10dp</dimen>
+    <dimen name="dialog_cancellation_card_content_message_layout_width">0dp</dimen>
+    <dimen name="dialog_cancellation_card_content_message_layout_height">220dp</dimen>
+    <dimen name="dialog_cancellation_card_content_message_margin">10dp</dimen>
+    <dimen name="dialog_cancellation_card_content_message_corner_radius">10dp</dimen>
+    <dimen name="dialog_cancellation_rv_layout_width">0dp</dimen>
+    <dimen name="dialog_cancellation_rv_layout_height">0dp</dimen>
+    <dimen name="dialog_cancellation_image_view_size">16dp</dimen>
+    <dimen name="dialog_cancellation_item_image_margin_start">10dp</dimen>
+    <dimen name="dialog_cancellation_margin_horizontal">10dp</dimen>
+    <dimen name="dialog_cancellation_margin_bottom">20dp</dimen>
+    <dimen name="dialog_cancellation_layout_width">0dp</dimen>
+    <dimen name="dialog_cancellation_constraint_content_layout_height">350dp</dimen>
+    <dimen name="dialog_cancellation_title_dialog_margin_horizontal">10dp</dimen>
+    <dimen name="dialog_cancellation_title_drawable_padding">12dp</dimen>
+    <dimen name="dialog_cancellation_reason_layout_height">80dp</dimen>
+    <dimen name="dialog_cancellation_reason_padding_size">7dp</dimen>
+    <dimen name="dialog_cancellation_margin_size">10dp</dimen>
+    <dimen name="dialog_cancellation_text_count_margin_size">5dp</dimen>
+    <dimen name="dialog_cancellation_text_count_size">15sp</dimen>
+    <dimen name="dialog_cancellation_til_reason_margin_bottom">10dp</dimen>
+    <dimen name="dialog_cancellation_title_layout_width">0dp</dimen>
+    <!--endregion-->
+
+
+    <!--region item rv cancellation-->
+    <dimen name="item_rv_cancellation_content_text_size">16sp</dimen>
+    <dimen name="item_rv_cancellation_content_margin">6dp</dimen>
+    <dimen name="item_rv_cancellation_content_padding">6dp</dimen>
+    <!--endregion-->
+
+    <!--region dialog popup message-->
+    <dimen name="popup_message_card_corner_radius">8dp</dimen>
+    <dimen name="popup_message_card_elevation">8dp</dimen>
+    <dimen name="popup_message_card_margin">8dp</dimen>
+    <dimen name="popup_message_card_padding">24dp</dimen>
+    <dimen name="popup_message_card_width">415dp</dimen>
+    <dimen name="popup_message_content_width">415dp</dimen>
+    <dimen name="popup_message_desc_height">20dp</dimen>
+    <dimen name="popup_message_desc_margin_bottom">32dp</dimen>
+    <dimen name="popup_message_desc_margin_top">16dp</dimen>
+    <dimen name="popup_message_desc_width">0sp</dimen>
+    <dimen name="popup_message_loading_height">35dp</dimen>
+    <dimen name="popup_message_loading_margin_bottom">16dp</dimen>
+    <dimen name="popup_message_loading_margin_top">32dp</dimen>
+    <dimen name="popup_message_loading_width">35dp</dimen>
+    <dimen name="popup_message_status_height">35dp</dimen>
+    <dimen name="popup_message_status_margin_bottom">16dp</dimen>
+    <dimen name="popup_message_status_margin_top">32dp</dimen>
+    <dimen name="popup_message_status_width">35dp</dimen>
+    <dimen name="popup_message_title_margin_top">24dp</dimen>
+    <dimen name="popup_message_title_text_size">20sp</dimen>
+    <!--endregion-->
+
+    <!--    header screen-->
+    <dimen name="header_screen_title_text_size">36sp</dimen>
+    <dimen name="header_screen_image_layout_width">186dp</dimen>
+    <dimen name="header_screen_image_layout_height">56dp</dimen>
+    <dimen name="header_screen_image_margin_start">24dp</dimen>
+    <dimen name="header_screen_back_button_margin_end">24dp</dimen>
+    <dimen name="header_screen_view_separator_layout_width">10dp</dimen>
+    <dimen name="header_screen_image_layout_margin_bottom">9dp</dimen>
+    <!--endregion-->
+
+    <!--region content debit card-->
+    <dimen name="item_debit_card_layout_width">221dp</dimen>
+    <dimen name="item_debit_card_width">189dp</dimen>
+    <dimen name="item_debit_card_height">120dp</dimen>
+    <dimen name="item_debit_card_product_name_margin_top">16dp</dimen>
+    <dimen name="item_debit_card_name_margin_top">2dp</dimen>
+    <dimen name="item_debit_card_layout_height">320dp</dimen>
+    <dimen name="item_debit_card_layout_padding">16dp</dimen>
+    <dimen name="item_debit_card_number_title_margin_top">2dp</dimen>
+    <dimen name="item_debit_card_number_title_text_size">10sp</dimen>
+    <dimen name="item_debit_card_number_margin_top">1dp</dimen>
+    <dimen name="item_debit_card_number_text_size">14sp</dimen>
+    <dimen name="item_debit_card_customer_name_text_size">16sp</dimen>
+    <dimen name="item_debit_card_account_number_title_margin_top">2dp</dimen>
+    <dimen name="item_debit_card_account_number_title_text_size">10sp</dimen>
+    <dimen name="item_debit_card_account_number_margin_top">1dp</dimen>
+    <dimen name="item_debit_card_account_number_text_size">14sp</dimen>
+    <dimen name="item_debit_card_layout_margin_horizontal">8dp</dimen>
+    <dimen name="item_debit_card_status_height">32dp</dimen>
+    <dimen name="item_debit_card_status_margin_top">8dp</dimen>
+    <dimen name="item_debit_card_status_padding_horizontal">16dp</dimen>
+    <dimen name="item_debit_card_status_padding_vertical">7dp</dimen>
+    <dimen name="item_debit_card_status_text_size">12sp</dimen>
+    <!--endregion-->
+
+    <!-- text view transaction -->
+    <dimen name="tv_title_transaction_margin_top">5dp</dimen>
+    <dimen name="tv_title_transaction_text_size">12sp</dimen>
+    <dimen name="tv_value_transaction_text_size">16sp</dimen>
+    <dimen name="tv_description_transaction_text_size">16sp</dimen>
+    <!--endregion-->
+
+    <!--Debit Card Information-->
+    <dimen name="cl_debit_card_information">50dp</dimen>
+    <dimen name="cl_debit_card_name_initial_margin">10dp</dimen>
+    <dimen name="cl_debit_card_name_initial_min_height">35dp</dimen>
+    <dimen name="cl_debit_card_name_initial_min_width">35dp</dimen>
+    <dimen name="iv_debit_card_size">25dp</dimen>
+    <dimen name="tv_debit_card_name_initial_text_size">18sp</dimen>
+    <dimen name="tv_debit_card_name_height">25dp</dimen>
+    <dimen name="tv_debit_card_name_margin_start">10dp</dimen>
+    <dimen name="tv_debit_card_name_padding_top">4dp</dimen>
+    <dimen name="tv_debit_card_number_height">25dp</dimen>
+    <dimen name="tv_debit_card_number_margin_start">10dp</dimen>
+    <dimen name="tv_debit_card_number_padding_bottom">4dp</dimen>
+    <dimen name="cl_debit_card_edit_button_width">50dp</dimen>
+    <dimen name="iv_debit_card_edit_button_width">25dp</dimen>
+    <dimen name="iv_debit_card_edit_button_height">25dp</dimen>
+    <dimen name="iv_debit_card_image_width">35dp</dimen>
+    <dimen name="iv_debit_card_image_height">35dp</dimen>
+    <dimen name="iv_debit_card_image_elevation">1dp</dimen>
+    <!--endregion-->
+
+    <!--Dialog Success-->
+    <dimen name="dialog_success_corner_radius">16dp</dimen>
+    <dimen name="dialog_success_container_layout_width">442dp</dimen>
+    <dimen name="dialog_success_container_layout_height">240dp</dimen>
+    <dimen name="dialog_success_container_title_text_size">20sp</dimen>
+    <dimen name="dialog_success_container_desc_text_size">16sp</dimen>
+    <!--endregion-->
+
+    <!--Script Preview-->
+    <dimen name="script_preview_header_height">56dp</dimen>
+    <dimen name="script_preview_image_close_size">40dp</dimen>
+    <dimen name="script_preview_image_close_margin_start">32dp</dimen>
+    <dimen name="script_preview_view_pager_width">1000dp</dimen>
+    <dimen name="script_preview_view_pager_height">400dp</dimen>
+    <dimen name="script_preview_camera_width">720dp</dimen>
+    <dimen name="script_preview_camera_height">400dp</dimen>
+    <dimen name="script_preview_view_pager_margin_horizontal">50dp</dimen>
+    <dimen name="script_preview_card_view_height">50dp</dimen>
+    <dimen name="script_preview_card_view_margin_bottom">30dp</dimen>
+    <dimen name="script_preview_card_view_padding">8dp</dimen>
+    <dimen name="script_preview_card_view_radius">8dp</dimen>
+    <dimen name="script_preview_card_view_elevation">8dp</dimen>
+    <dimen name="script_preview_image_previous_size">24dp</dimen>
+    <dimen name="script_preview_image_previous_margin_start">24dp</dimen>
+    <dimen name="script_preview_text_number_margin_start">10dp</dimen>
+    <dimen name="script_preview_text_number_size">24sp</dimen>
+    <dimen name="script_preview_text_slash_margin_start">2dp</dimen>
+    <dimen name="script_preview_image_next_size">24dp</dimen>
+    <dimen name="script_preview_image_next_margin_start">10dp</dimen>
+    <dimen name="script_preview_image_next_margin_end">20dp</dimen>
+    <dimen name="script_preview_footer_height">70dp</dimen>
+    <dimen name="script_preview_button_next_width">240dp</dimen>
+    <dimen name="script_preview_button_retake_width">240dp</dimen>
+    <dimen name="script_preview_button_next_margin_end">24dp</dimen>
+    <dimen name="script_preview_button_retake_margin_end">16dp</dimen>
+    <dimen name="script_preview_item_container_width">1000dp</dimen>
+    <dimen name="script_preview_item_container_height">400dp</dimen>
+    <dimen name="script_preview_item_progress_size">50dp</dimen>
+    <dimen name="script_preview_button_capture_size">85dp</dimen>
+    <dimen name="script_preview_button_back_recapture_size">70dp</dimen>
+    <dimen name="script_preview_button_back_recapture_margin_start">40dp</dimen>
+    <dimen name="script_preview_button_back_capture_margin_top">20dp</dimen>
+    <dimen name="script_preview_recapture_margin_top">15dp</dimen>
+    <dimen name="script_preview_back_margin_end">15dp</dimen>
+    <dimen name="script_preview_st_status_script_preview">15dp</dimen>
+    <!--endregion-->
+
+    <!--List Menu-->
+    <dimen name="item_tv_menu_margin_horizontal">15dp</dimen>
+    <dimen name="item_tv_menu_margin_vertical">16dp</dimen>
+    <dimen name="item_tv_menu_line_separator_height">1dp</dimen>
+    <dimen name="item_tv_menu_item_size">16sp</dimen>
+    <dimen name="item_tv_menu_item_text_space">8dp</dimen>
+    <!--endregion-->
+
+    <!-- region Item Nbds Custom Spinner -->
+    <dimen name="spinner_default_height">56dp</dimen>
+    <dimen name="item_spinner_dropdown_product_name_text_size">16sp</dimen>
+    <dimen name="item_spinner_dropdown_account_number_text_size">18sp</dimen>
+    <dimen name="iv_item_nbds_custom_spinner_width">40dp</dimen>
+    <dimen name="iv_item_nbds_custom_spinner_height">40dp</dimen>
+    <dimen name="iv_item_nbds_custom_spinner_margin_left">24dp</dimen>
+    <dimen name="iv_item_nbds_custom_spinner_margin_top">16dp</dimen>
+    <dimen name="iv_item_nbds_custom_spinner_margin_bottom">16dp</dimen>
+    <dimen name="tv_item_spinner_dropdown_product_name_margin_left">16dp</dimen>
+    <!-- endregion -->
+
+
+    <!--region dialog dukcapil web portal-->
+    <dimen name="dialog_dukcapil_web_portal_cardview_width">1000dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_cardview_height">600dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_tv_dukcapil_title_margin_start">8dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_tv_dukcapil_title_margin_top">8dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_tv_dukcapil_title_text_size">20sp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_tv_id_card_title_margin_top">8dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_tv_id_card_title_margin_bottom">8dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_tv_id_card_title_text_size">18sp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_copy_width">25dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_copy_height">25dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_copy_margin_start">16dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_close_width">200dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_close_margin_end">16dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_close_text_size">16sp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_refresh_width">200dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_refresh_margin_end">16dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_btn_refresh_text_size">16sp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_view_height">1dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_view_margin_bottom">2dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_ns_margin_start">8dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_ns_margin_top">16dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_ns_margin_bottom">16dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_ns_margin_end">8dp</dimen>
+    <dimen name="dialog_dukcapil_web_portal_wv_margin_bottom">200dp</dimen>
+    <dimen name="customer_verification_verified_card_margin">24dp</dimen>
+    <dimen name="customer_verification_stroke_width">1dp</dimen>
+    <!--endregion-->
+
+    <!--region item script status-->
+    <dimen name="script_status_card_width">380dp</dimen>
+    <dimen name="script_status_card_radius">20dp</dimen>
+    <dimen name="script_status_image_size">20dp</dimen>
+    <dimen name="script_status_image_margin_start">7dp</dimen>
+    <dimen name="script_status_image_margin_vertical">6dp</dimen>
+    <dimen name="script_status_title_size">12sp</dimen>
+    <dimen name="script_status_title_margin_start">6dp</dimen>
+    <dimen name="script_status_title_margin_end">6dp</dimen>
+    <dimen name="script_status_card_view_width">1000dp</dimen>
+    <dimen name="script_status_iv_close_item_status_width">15dp</dimen>
+    <dimen name="script_status_iv_close_item_status_height">15dp</dimen>
+    <dimen name="script_status_iv_close_item_status_margin_right">7dp</dimen>
+    <!--endregion-->
+
+    <!--region component script signature-->
+    <dimen name="component_label_script_signature_margin_start">16dp</dimen>
+    <dimen name="component_label_script_signature_margin_top">8dp</dimen>
+    <dimen name="component_label_script_signature_text_size">12sp</dimen>
+    <dimen name="component_label_script_signature_content_margin_start">16dp</dimen>
+    <dimen name="component_label_script_signature_content_margin_end">16dp</dimen>
+    <dimen name="component_label_script_signature_content_margin_top">10dp</dimen>
+    <dimen name="component_label_script_signature_content_margin_bottom">14dp</dimen>
+    <dimen name="item_signature_content_width">150dp</dimen>
+    <dimen name="item_signature_content_height">150dp</dimen>
+    <dimen name="item_signature_content_margin_start">1dp</dimen>
+    <dimen name="item_signature_content_margin_end">9dp</dimen>
+    <dimen name="item_signature_content_corner_radius">7.5dp</dimen>
+    <dimen name="item_signature_title_signature_margin">5dp</dimen>
+    <dimen name="item_signature_title_signature_text_size">13sp</dimen>
+    <dimen name="item_signature_signature_margin">3dp</dimen>
+    <dimen name="item_signature_line_separator_verify_height">1dp</dimen>
+    <dimen name="item_signature_line_separator_verify_margin_bottom">40dp</dimen>
+    <dimen name="item_signature_line_view_signature_margin_horizontal">10dp</dimen>
+    <dimen name="item_signature_line_view_signature_margin_vertical">3dp</dimen>
+    <dimen name="item_signature_line_view_signature_text_size">12sp</dimen>
+    <!--endregion-->
+
+    <!--region component nbds pdf viewer-->
+    <dimen name="pdf_viewer_button_container_padding">12dp</dimen>
+    <dimen name="pdf_viewer_button_previous_width">30dp</dimen>
+    <dimen name="pdf_viewer_button_previous_height">30dp</dimen>
+    <dimen name="pdf_viewer_button_next_width">30dp</dimen>
+    <dimen name="pdf_viewer_button_next_height">30dp</dimen>
+    <dimen name="pdf_viewer_button_next_margin_start">10dp</dimen>
+    <dimen name="pdf_viewer_current_page_text_height">30dp</dimen>
+    <dimen name="pdf_viewer_current_page_label_minimal_width">30dp</dimen>
+    <dimen name="pdf_viewer_current_page_label_margin_start">10dp</dimen>
+    <dimen name="pdf_viewer_total_page_label_height">30dp</dimen>
+    <dimen name="pdf_viewer_total_page_label_minimal_width">30dp</dimen>
+    <dimen name="pdf_viewer_total_page_label_text_size">18sp</dimen>
+    <dimen name="pdf_viewer_button_zoom_in_width">30dp</dimen>
+    <dimen name="pdf_viewer_button_zoom_in_height">30dp</dimen>
+    <dimen name="pdf_viewer_button_zoom_in_margin_start">10dp</dimen>
+    <dimen name="pdf_viewer_button_zoom_out_width">30dp</dimen>
+    <dimen name="pdf_viewer_button_zoom_out_height">30dp</dimen>
+    <dimen name="pdf_viewer_button_zoom_out_margin_start">10dp</dimen>
+    <!--endregion-->
+
+    <!-- region custom layout sign verification -->
+    <dimen name="content_sign_verification_padding">16dp</dimen>
+    <dimen name="content_sign_verification_text_choose_sign_margin_bottom">10dp</dimen>
+    <dimen name="content_sign_verification_text_status_margin_top">8dp</dimen>
+    <dimen name="content_sign_verification_text_status_margin_horizontal">8dp</dimen>
+    <dimen name="content_sign_verification_text_status_size">12sp</dimen>
+    <dimen name="content_sign_verification_container_status_margin_bottom">10dp</dimen>
+    <dimen name="content_sign_verification_icon_status_min_width">24dp</dimen>
+    <dimen name="content_sign_verification_icon_status_min_height">24dp</dimen>
+    <dimen name="content_sign_verification_top_right_radius">8dp</dimen>
+    <dimen name="content_sign_verification_bottom_right_radius">8dp</dimen>
+    <dimen name="content_sign_verification_border_width">1dp</dimen>
+    <dimen name="content_sign_verification_min_width">200dp</dimen>
+    <dimen name="content_sign_verification_min_height">200dp</dimen>
+    <dimen name="content_sign_verification_cv_error_verification_view_radius">8dp</dimen>
+    <dimen name="content_sign_verification_cv_error_verification_view_stroke_width">1dp</dimen>
+    <dimen name="content_sign_verification_cv_error_verification_view_elevation">1dp</dimen>
+    <!-- endregion -->
+
+    <dimen name="content_dialog_information_detail_tv_title_receiver_margin_top">16dp</dimen>
+    <dimen name="content_dialog_information_detail_tv_title_sender_data_margin_top">16dp</dimen>
+    <dimen name="content_dialog_information_detail_tv_receiver_name_margin_top">8dp</dimen>
+    <dimen name="content_dialog_information_detail_tv_receiver_account_margin_top">8dp</dimen>
+    <dimen name="content_dialog_information_detail_tv_sender_name_margin_top">8dp</dimen>
+    <dimen name="content_dialog_information_detail_tv_source_account_margin_top">8dp</dimen>
+    <dimen name="content_dialog_information_detail_view_line_end_height">2dp</dimen>
+    <dimen name="content_dialog_information_detail_view_line_end_margin_start">16dp</dimen>
+    <dimen name="content_dialog_information_detail_view_line_end_margin_top">22dp</dimen>
+    <dimen name="content_dialog_information_detail_view_line_end_margin_end">16dp</dimen>
+
+    <!-- Region Dialog progress Numeric Authorization-->
+    <dimen name="numeric_authorization_dialog_progress_cv_content_progress_width">415dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_cv_content_progress_margin">8dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_cv_content_progress_elevation">8dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_cv_content_progress_corner_radius">8dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_tv_title_dialog_popup_messages_text_size">20sp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_tv_title_dialog_popup_messages_margin">24dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_pb_loading_dialog_popup_messages_width">35dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_pb_loading_dialog_popup_messages_height">35dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_pb_loading_dialog_popup_messages_margin_top">32dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_pb_loading_dialog_popup_messages_margin_bottom">16dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_iv_status_dialog_popup_messages_width">35dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_iv_status_dialog_popup_messages_height">35dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_iv_status_dialog_popup_messages_margin_top">32dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_iv_status_dialog_popup_messages_margin_bottom">16dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_tv_desc_dialog_popup_messages_margin_start">20dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_tv_desc_dialog_popup_messages_margin_top">16dp</dimen>
+    <dimen name="numeric_authorization_dialog_progress_tv_desc_dialog_popup_messages_margin_end">20dp</dimen>
+    <!-- End region-->
+
+    <!-- Dialog Warkat Verification Failed -->
+    <dimen name="dialog_warkat_verification_failed_card_width">442dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_card_height">335dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_card_radius">16dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_card_elevation">6dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_icon_margin_top">24dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_title_size">20sp</dimen>
+    <dimen name="dialog_warkat_verification_failed_title_margin_top">13dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_container_reason_margin_horizontal">16dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_container_reason_margin_top">8dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_title_reason_margin_top">16dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_title_reason_margin_start">16dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_title_reason_size">14sp</dimen>
+    <dimen name="dialog_warkat_verification_failed_value_reason_size">16sp</dimen>
+    <dimen name="dialog_warkat_verification_failed_value_reason_margin_top">8dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_value_reason_margin_bottom">16dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_footer_size">16sp</dimen>
+    <dimen name="dialog_warkat_verification_failed_button_margin_top">24dp</dimen>
+    <dimen name="dialog_warkat_verification_failed_button_margin_bottom">24dp</dimen>
+    <!-- endregion -->
+    <!-- Dialog Warkat Sweep Process Initialization -->
+    <dimen name="dialog_warkat_sweep_process_initialization_width">400dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_margin">400dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_card_margin">70dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_card_radius">10dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_card_elevation">6dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_padding">24dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_content_product_padding">16dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_image_warning_width">100dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_image_warning_height">100dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_title_margin_top">10dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_content_single_button_margin_top">10dp
+    </dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_content_single_button_width">400dp
+    </dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_content_secondary_button_margin_top">
+        24dp
+    </dimen>
+    <dimen name="dialog_warkat_sweep_process_initialization_button_margin_horizontal">5dp</dimen>
+    <!-- endregion -->
+
+    <!-- Dialog Warkat Sweep Process Invalid Currency -->
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_width">400dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_card_margin">70dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_content_margin">16dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_card_radius">10dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_card_elevation">6dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_content_padding">24dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_image_warning_width">100dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_image_warning_height">100dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_title_margin_top">10dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_content_single_button_margin_top">10dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_content_single_button_width">400dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_content_secondary_button_margin_top">24dp</dimen>
+    <dimen name="dialog_warkat_sweep_process_invalid_currency_button_margin_horizontal">5dp</dimen>
+    <!--endregion-->
+
+    <!-- Component Convert Currency to Counted -->
+    <dimen name="edit_transaction_deposit_amount_transaction_margin_horizontal">16dp</dimen>
+    <dimen name="edit_transaction_deposit_amount_tv_label_transaction_margin_top">16dp</dimen>
+    <dimen name="edit_transaction_deposit_amount_transaction_margin_top">4dp</dimen>
+    <dimen name="edit_transaction_deposit_amount_transaction_margin_start">16dp</dimen>
+    <dimen name="edit_transaction_deposit_amount_transaction_margin_bottom">16dp</dimen>
+    <dimen name="edit_transaction_deposit_amount_terbilang_transaction_margin_top">4dp</dimen>
+    <dimen name="edit_transaction_deposit_source_label_text_size">10sp</dimen>
+    <dimen name="edit_transaction_deposit_title_edit_rek_terbilang_text_size">14sp</dimen>
+    <!-- endregion -->
+
+    <!--region item status transaction-->
+    <dimen name="item_status_transaction_layout_height">48dp</dimen>
+    <dimen name="item_status_transaction_description_text_size">16sp</dimen>
+    <dimen name="item_status_transaction_description_drawable_padding">10dp</dimen>
+    <dimen name="item_status_transaction_close_icon_size">15dp</dimen>
+    <dimen name="item_status_transaction_close_icon_margin_vertical">15dp</dimen>
+    <dimen name="item_status_transaction_close_icon_margin_horizontal">22dp</dimen>
+    <!--endregion-->
+
+    <!--region item dialog see detail-->
+    <dimen name="item_dialog_see_detail_padding_horizontal">16dp</dimen>
+    <dimen name="item_dialog_see_detail_padding_vertical">16dp</dimen>
+    <dimen name="item_dialog_see_detail_text_size">16sp</dimen>
+    <dimen name="item_dialog_see_detail_background_radius">10dp</dimen>
+    <dimen name="item_dialog_see_detail_progress_bar_radius">444dp</dimen>
+    <dimen name="item_dialog_see_detail_background_outline_width">1dp</dimen>
+    <dimen name="item_dialog_see_detail_progress_bar_margin_top">10dp</dimen>
+    <dimen name="item_dialog_see_detail_description_margin_top">10dp</dimen>
+    <dimen name="item_dialog_see_detail_progress_description_margin_top">5dp</dimen>
+    <dimen name="item_dialog_see_detail_progress_description_text_size">12sp</dimen>
+    <!--endregion-->
+
+    <!--region card detail fund-->
+    <dimen name="card_detail_fund_layout_padding">16dp</dimen>
+    <dimen name="card_detail_fund_status_padding_vertical">4dp</dimen>
+    <dimen name="card_detail_fund_status_padding_horizontal">10dp</dimen>
+    <dimen name="card_detail_fund_status_text_size">10sp</dimen>
+    <dimen name="card_detail_fund_product_name_text_size">12sp</dimen>
+    <dimen name="card_detail_fund_card_name_text_size">10sp</dimen>
+    <dimen name="card_detail_fund_see_detail_button_text_size">10sp</dimen>
+    <dimen name="card_detail_fund_see_detail_button_padding_vertical">7dp</dimen>
+    <dimen name="card_detail_fund_see_detail_button_margin_top">16dp</dimen>
+    <dimen name="card_detail_fund_see_detail_button_height">32dp</dimen>
+    <!--endregion-->
+
+    <!--region chart-->
+    <dimen name="progress_default_stroke_width">10dp</dimen>
+    <!--endregion-->
+
+    <!--region marker view-->
+    <dimen name="content_marker_margin_bottom">20dp</dimen>
+    <dimen name="content_marker_padding">15dp</dimen>
+    <!--endregion-->
+
+    <!--region Font Size-->
+    <dimen name="header1_font_size">64sp</dimen>
+    <dimen name="header2_font_size">40sp</dimen>
+    <dimen name="header3_font_size">24sp</dimen>
+    <dimen name="title_font_size">18sp</dimen>
+    <dimen name="body_text_font_size">16sp</dimen>
+    <dimen name="smaller_font_size">14sp</dimen>
+    <dimen name="pre_title_font_size">12sp</dimen>
+    <!--endregion-->
+
+    <!--region Card Elevation-->
+    <dimen name="divider_card_elevation_size">0dp</dimen>
+    <dimen name="one_card_elevation_size">1dp</dimen>
+    <dimen name="two_card_elevation_size">2dp</dimen>
+    <dimen name="three_card_elevation_size">3dp</dimen>
+    <dimen name="four_card_elevation_size">4dp</dimen>
+    <dimen name="five_card_elevation_size">5dp</dimen>
+    <dimen name="six_card_elevation_size">6dp</dimen>
+    <dimen name="seven_card_elevation_size">7dp</dimen>
+    <dimen name="eight_card_elevation_size">8dp</dimen>
+    <dimen name="twelve_card_elevation_size">12dp</dimen>
+    <dimen name="sixteen_card_elevation_size">16dp</dimen>
+    <dimen name="twentyfour_card_elevation_size">24dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <!--endregion-->
+
+    <!--region button-->
+    <dimen name="radius_button_component">100dp</dimen>
+    <dimen name="stroke_button_blue_component">2dp</dimen>
+    <dimen name="stroke_button_blue_large_height">56dp</dimen>
+    <dimen name="stroke_button_blue_large_width">343dp</dimen>
+    <dimen name="stroke_button_blue_medium_height">48dp</dimen>
+    <dimen name="stroke_button_blue_medium_width">343dp</dimen>
+    <dimen name="stroke_button_blue_small_height">40dp</dimen>
+    <dimen name="stroke_button_blue_small_width">180dp</dimen>
+    <dimen name="stroke_button_blue_mini_height">33dp</dimen>
+    <dimen name="stroke_button_blue_mini_width">78dp</dimen>
+    <dimen name="stroke_button_blue_tiny_height">24dp</dimen>
+    <dimen name="stroke_button_blue_tiny_width">71dp</dimen>
+    <dimen name="margin_design_system_button">30dp</dimen>
+    <dimen name="margin_start_design_system_button">30dp</dimen>
+    <dimen name="margin_start_label_design_system_color">20dp</dimen>
+    <dimen name="margin_top_label_design_system_color">50dp</dimen>
+    <dimen name="margin_top_label_size_design_system_color">30sp</dimen>
+    <dimen name="image_size_design_system_color">100dp</dimen>
+    <dimen name="image_margin_top_design_system_color">20dp</dimen>
+    <dimen name="size_card_design_system_elevation">150dp</dimen>
+    <dimen name="margin_start_design_system_elevation">50dp</dimen>
+    <dimen name="margin_top_design_system_elevation">20dp</dimen>
+    <dimen name="size_label_design_system_elevation">20sp</dimen>
+    <dimen name="margin_bottom_design_system_elevation">40dp</dimen>
+    <dimen name="margin_design_system_font">30dp</dimen>
+    <!--endregion-->
+
+    <!-- region Amount Field Component -->
+    <dimen name="edit_amount_field_description_label_text_size">10sp</dimen>
+    <dimen name="edit_amount_field_description_field_text_size">14sp</dimen>
+    <!--endregion-->
+
+    <!-- region dialog nominal confirmation -->
+    <dimen name="dialog_amount_confirmation_min_width">495dp</dimen>
+    <dimen name="dialog_amount_confirmation_radius">16dp</dimen>
+    <dimen name="dialog_amount_confirmation_icon_width">90dp</dimen>
+    <dimen name="dialog_amount_confirmation_icon_height">90dp</dimen>
+    <dimen name="dialog_amount_confirmation_icon_margin_top">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_title_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_title_margin_top">8dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_title_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_title_text_size">20sp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_description_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_description_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_description_margin_top">18dp</dimen>
+    <dimen name="dialog_amount_confirmation_description_text_size">16sp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_total_amount_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_total_amount_margin_top">10dp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_total_amount_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_total_amount_padding_vertical">16dp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_total_amount_padding_horizontal">8dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_total_amount_label_text_size">16sp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_total_amount_value_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_total_amount_value_margin_start">10dp</dimen>
+    <dimen name="dialog_amount_confirmation_tv_total_amount_value_text_size">16sp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_amount_description_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_amount_description_margin_top">8dp</dimen>
+    <dimen name="dialog_amount_confirmation_layout_amount_description_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_agreement_width">26dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_agreement_margin_top">18dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_agreement_margin_start">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_text_agreement_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_text_agreement_margin_start">13dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_text_agreement_margin_top">13dp</dimen>
+    <dimen name="dialog_amount_confirmation_checkbox_text_agreement_margin_end">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_button_confirmation_width">0dp</dimen>
+    <dimen name="dialog_amount_confirmation_button_confirmation_margin_top">24dp</dimen>
+    <dimen name="dialog_amount_confirmation_button_confirmation_margin_bottom">32dp</dimen>
+    <dimen name="dialog_amount_confirmation_button_confirmation_margin_horizontal">24dp</dimen>
+    <dimen name="confirmation_transfer_information_detail_max_height">130dp</dimen>
+    <!-- endregion dialog nominal confirmation -->
+
+    <!-- scrollbar -->
+    <dimen name="dashboard_backgroud_track_scrollbar">200dp</dimen>
+    <dimen name="dashboard_backgroud_track_scrollbar_width">6dp</dimen>
+    <dimen name="dashboard_backgroud_track_thumb_scrollbar_top">2dp</dimen>
+    <dimen name="dashboard_backgroud_track_thumb_scrollbar_bottom">2dp</dimen>
+    <dimen name="dashboard_ic_thumb_scrollbar_radius">5dp</dimen>
+    <dimen name="dashboard_ic_thumb_scrollbar_width">8dp</dimen>
+    <dimen name="dashboard_ic_thumb_scrollbar_height">3dp</dimen>
+    <dimen name="dashboard_rv_reservation_list_dashboard_scrollbar_size">6dp</dimen>
+    <!-- endregion -->
+
+</resources>

@@ -1,0 +1,16 @@
+apply plugin: BuildPlugins.navSafeArgs
+apply plugin: 'dagger.hilt.android.plugin'
+
+apply from: "$rootDir/buildConfig/core-builder.gradle"
+apply from: "$rootDir/buildConfig/local-aar.gradle"
+
+dependencies {
+    implementation Core.coreKtx
+    implementation Presentation.constraintLayout
+    implementation Presentation.recyclerView
+    implementation Presentation.material
+    implementation Jetpack.navigationUi
+    implementation Jetpack.navigationFragment
+    implementation customModulePath(CoreModules.coreUi)
+    implementation Presentation.swipeRefresh
+}

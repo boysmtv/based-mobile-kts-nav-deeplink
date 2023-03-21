@@ -1,0 +1,11 @@
+dependencies {
+    kapt Jetpack.roomCompiler
+    implementation Jetpack.roomRuntime
+    implementation Jetpack.room
+    implementation Jetpack.lifecycleLiveData
+    implementation Jetpack.lifecycleViewModel
+    implementation Jetpack.paging
+    implementation Jetpack.navigationUi
+    implementation Jetpack.navigationFragment
+    implementation Jetpack.workManager
+}

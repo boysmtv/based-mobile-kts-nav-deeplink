@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright © 2022 PT Bank Mandiri (Persero) Tbk.
+*
+* Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+* Proprietary and confidential
+*
+-->
+<resources>
+
+    <!-- Region fragment auth-->
+    <dimen name="auth_iv_title_auth_width">113dp</dimen>
+    <dimen name="auth_iv_title_auth_height">33dp</dimen>
+    <dimen name="auth_iv_title_auth_marginStart">54dp</dimen>
+    <dimen name="auth_iv_title_auth_margin_top">42dp</dimen>
+    <dimen name="auth_tv_title_auth_margin_top">18dp</dimen>
+    <dimen name="auth_tv_title_auth_text_size">36sp</dimen>
+    <dimen name="auth_fl_content_auth_margin_top">34dp</dimen>
+    <dimen name="auth_cv_content_auth_width">412dp</dimen>
+    <dimen name="auth_cv_content_auth_corner_radius">8dp</dimen>
+    <dimen name="auth_tv_version_text_size">12sp</dimen>
+    <dimen name="auth_tv_version_margin_end">12sp</dimen>
+    <dimen name="auth_tv_version_margin_bottom">16dp</dimen>
+    <dimen name="auth_tv_header_auth_margin_top">32dp</dimen>
+    <dimen name="auth_tv_header_auth_text_size">24sp</dimen>
+    <dimen name="auth_til_user_name_auth_height">58dp</dimen>
+    <dimen name="auth_til_user_name_auth_margin">40dp</dimen>
+    <dimen name="auth_til_user_name_auth_margin_top">24dp</dimen>
+    <dimen name="auth_et_user_name_auth_height">58dp</dimen>
+    <dimen name="auth_et_user_name_auth_padding_start">16dp</dimen>
+    <dimen name="auth_et_user_name_auth_padding_end">16dp</dimen>
+    <dimen name="auth_til_password_auth_height">58dp</dimen>
+    <dimen name="auth_til_password_auth_margin">40dp</dimen>
+    <dimen name="auth_til_password_auth_margin_top">16dp</dimen>
+    <dimen name="auth_et_password_auth_height">58dp</dimen>
+    <dimen name="auth_et_password_auth_padding_start">16dp</dimen>
+    <dimen name="auth_et_password_auth_padding_end">16dp</dimen>
+    <dimen name="auth_tv_forgot_password_auth_margin_start">49dp</dimen>
+    <dimen name="auth_tv_forgot_password_auth_margin_top">16dp</dimen>
+    <dimen name="auth_tv_forgot_password_auth_text_size">16sp</dimen>
+    <dimen name="auth_btn_login_auth_height">56dp</dimen>
+    <dimen name="auth_btn_login_auth_marginStart">40dp</dimen>
+    <dimen name="auth_btn_login_auth_margin_top">38dp</dimen>
+    <dimen name="auth_btn_login_auth_margin_end">40dp</dimen>
+    <dimen name="auth_btn_login_auth_margin_bottom">56dp</dimen>
+    <dimen name="auth_et_password_auth_line_height">46dp</dimen>
+    <dimen name="auth_tv_otp_margin_top">24dp</dimen>
+    <!--endregion-->
+
+    <!-- Region Dialog popup_messages-->
+    <dimen name="dialog_popup_messages_login_edit_text_title_marginTop">24dp</dimen>
+    <dimen name="dialog_popup_messages_login_edit_text_title_marginStart">60dp</dimen>
+    <dimen name="dialog_popup_messages_login_edit_text_title_marginEnd">5dp</dimen>
+    <dimen name="dialog_popup_messages_login_edit_text_title_text_size">20sp</dimen>
+    <dimen name="dialog_popup_messages_login_card_view_width">415dp</dimen>
+    <dimen name="dialog_popup_messages_login_card_view_margin">8dp</dimen>
+    <dimen name="dialog_popup_messages_login_card_view_elevation">8dp</dimen>
+    <dimen name="dialog_popup_messages_login_card_view_CornerRadius">8dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_close_width">35dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_close_height">35dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_close_marginEnd">20dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_close_padding">10dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_status_width">30dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_status_height">30dp</dimen>
+    <dimen name="dialog_popup_messages_login_iv_status_marginTop">40dp</dimen>
+    <dimen name="dialog_popup_messages_login_tv_desc_marginStart">20dp</dimen>
+    <dimen name="dialog_popup_messages_login_tv_desc_marginTop">24dp</dimen>
+    <dimen name="dialog_popup_messages_login_tv_desc_marginEnd">20dp</dimen>
+    <dimen name="dialog_popup_messages_login_tv_desc_marginBottom">32dp</dimen>
+    <!--endregion-->
+
+    <!-- Region Dialog Input OTP-->
+    <dimen name="dialog_input_otp_style_card_width">503dp</dimen>
+    <dimen name="dialog_input_otp_style_card_height">617dp</dimen>
+    <dimen name="dialog_input_otp_root_card_elevation">4dp</dimen>
+    <dimen name="dialog_input_otp_txt_title_margin_top">22dp</dimen>
+    <dimen name="dialog_input_otp_txt_title_margin_bottom">100dp</dimen>
+    <dimen name="dialog_input_otp_txt_title_margin_sides">80dp</dimen>
+    <dimen name="dialog_input_otp_txt_title_height">56dp</dimen>
+    <dimen name="dialog_input_otp_txt_title_size">20sp</dimen>
+    <dimen name="dialog_input_otp_txt_error_margin_top">8dp</dimen>
+    <dimen name="dialog_input_otp_num_pad_margin_sides">80dp</dimen>
+    <dimen name="dialog_input_otp_num_pad_margin_start">16dp</dimen>
+    <dimen name="dialog_input_otp_txt_information_margin_top">24dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_margin_top">6dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_margin_left">14dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_diameter">56dp</dimen>
+    <dimen name="dialog_input_otp_txt_retry_margin_top">18dp</dimen>
+    <dimen name="dialog_input_otp_num_pad_margin_top">10dp</dimen>
+    <dimen name="dialog_input_otp_num_pad_width">345dp</dimen>
+    <dimen name="dialog_input_otp_pin_margin_top">10dp</dimen>
+    <dimen name="dialog_input_otp_pb_resend_otp_width">30dp</dimen>
+    <dimen name="dialog_input_otp_pb_resend_otp_height">30dp</dimen>
+    <dimen name="dialog_input_otp_pb_resend_otp_margin_top">5dp</dimen>
+    <dimen name="dialog_input_otp_pb_resend_otp_margin_bottom">5dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_otp_transaction_height">56dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_otp_transaction_width">56dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_otp_transaction_margin_button">-60dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_otp_transaction_margin_start">14dp</dimen>
+    <dimen name="dialog_input_otp_btn_back_otp_transaction_margin_top">20dp</dimen>
+    <dimen name="dialog_input_otp_tv_information_margin_top">24dp</dimen>
+    <dimen name="dialog_input_otp_cv_layout_margin_vertical">40dp</dimen>
+    <dimen name="dialog_input_otp_cv_layout_margin_horizontal">56dp</dimen>
+    <dimen name="dialog_input_otp_cl_content_padding">24dp</dimen>
+    <dimen name="dialog_input_otp_ll_content_margin_bottom">20dp</dimen>
+    <dimen name="dialog_input_otp_ll_content_margin_end">8dp</dimen>
+    <dimen name="dialog_input_otp_corner_radius">24dp</dimen>
+    <dimen name="dialog_input_otp_padding">24dp</dimen>
+    <!-- End region-->
+
+    <!-- Region Dialog progress OTP-->
+    <dimen name="dialog_progress_otp_cv_content_progress_otp_width">415dp</dimen>
+    <dimen name="dialog_progress_otp_cv_content_progress_otp_margin">8dp</dimen>
+    <dimen name="dialog_progress_otp_cv_content_progress_otp_elevation">8dp</dimen>
+    <dimen name="dialog_progress_otp_cv_content_progress_otp_corner_radius">8dp</dimen>
+    <dimen name="dialog_progress_otp_tv_title_dialog_popup_messages_text_size">20sp</dimen>
+    <dimen name="dialog_progress_otp_tv_title_dialog_popup_messages_margin">24dp</dimen>
+    <dimen name="dialog_progress_otp_pb_loading_dialog_popup_messages_width">35dp</dimen>
+    <dimen name="dialog_progress_otp_pb_loading_dialog_popup_messages_height">35dp</dimen>
+    <dimen name="dialog_progress_otp_pb_loading_dialog_popup_messages_margin_top">32dp</dimen>
+    <dimen name="dialog_progress_otp_pb_loading_dialog_popup_messages_margin_bottom">16dp</dimen>
+    <dimen name="dialog_progress_otp_iv_status_dialog_popup_messages_width">35dp</dimen>
+    <dimen name="dialog_progress_otp_iv_status_dialog_popup_messages_height">35dp</dimen>
+    <dimen name="dialog_progress_otp_iv_status_dialog_popup_messages_margin_top">32dp</dimen>
+    <dimen name="dialog_progress_otp_iv_status_dialog_popup_messages_margin_bottom">16dp</dimen>
+    <dimen name="dialog_progress_otp_tv_desc_dialog_popup_messages_margin_start">20dp</dimen>
+    <dimen name="dialog_progress_otp_tv_desc_dialog_popup_messages_margin_top">16dp</dimen>
+    <dimen name="dialog_progress_otp_tv_desc_dialog_popup_messages_margin_end">20dp</dimen>
+    <!-- End region-->
+
+    <!-- region New Login-->
+    <dimen name="auth_textview_title_size">36sp</dimen>
+    <dimen name="auth_imageview_margin_start">60dp</dimen>
+    <dimen name="auth_imageview_margin_top">16dp</dimen>
+    <dimen name="auth_content_layout_margin_start">40dp</dimen>
+    <dimen name="auth_content_layout_margin_end">40dp</dimen>
+    <dimen name="auth_constraint_layout_width">400dp</dimen>
+    <dimen name="auth_constraint_layout_margin_start">60dp</dimen>
+    <dimen name="auth_constraint_layout_margin_end">40dp</dimen>
+    <dimen name="auth_constraint_layout_margin_top">40dp</dimen>
+    <dimen name="auth_textview_title_login_size">24sp</dimen>
+    <dimen name="auth_text_input_edit_height">48dp</dimen>
+    <dimen name="auth_text_input_edit_padding_start">16dp</dimen>
+    <dimen name="auth_text_input_edit_drawable_padding">12dp</dimen>
+    <dimen name="auth_text_input_user_margin_top">32dp</dimen>
+    <dimen name="auth_text_input_password_margin_top">24dp</dimen>
+    <dimen name="auth_button_margin_top">32dp</dimen>
+    <dimen name="auth_segment_button_margin_top">32dp</dimen>
+    <dimen name="auth_segment_button_radius">30dp</dimen>
+    <dimen name="auth_segment_button_padding">10dp</dimen>
+    <dimen name="auth_segment_button_text_size">16dp</dimen>
+    <dimen name="auth_elevation">6dp</dimen>
+    <!-- endregion-->
+</resources>

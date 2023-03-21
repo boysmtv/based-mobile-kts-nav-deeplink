@@ -1,0 +1,13 @@
+ext {
+    localAARPublishConfig = [groupId: "com.kotlin.learn.based", version: "1.0.0-SNAPSHOT"]
+}
+
+// Load local.properties if it is found
+def propFile = file("${rootDir}/local.properties")
+if (!propFile.exists()) propFile.createNewFile()
+def props = new Properties()
+propFile.withInputStream { props.load(it) }
+
+//Give preference to command line params over local.properties
+ext.useAARForDevBuild = (hasProperty("useAARForDevBuild")) ? getProperty("useAARForDevBuild").toBoolean() : props.getProperty("useAARForDevBuild", "false").toBoolean()
+ext.inDevModules = (hasProperty("modules")) ? getProperty("modules").split(" ") : props.getProperty('modules', ":app").split(" ")

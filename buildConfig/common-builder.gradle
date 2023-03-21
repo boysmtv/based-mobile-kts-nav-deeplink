@@ -1,0 +1,10 @@
+apply from: "$rootProject.rootDir/buildConfig/common-config.gradle"
+
+dependencies {
+    implementation fileTree(dir: 'libs', includes: ['*.jar'])
+    implementation Core.coreKtx
+    implementation Core.appcompat
+    implementation Core.coreKtx
+    implementation ExternalLib.timber
+    implementation Core.biometric
+}

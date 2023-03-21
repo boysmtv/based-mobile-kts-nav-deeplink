@@ -1,0 +1,18 @@
+/*
+ * Copyright © 2020 PT Bank Mandiri (Persero) Tbk.
+ *
+ * Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ */
+
+apply from: "$rootDir/buildConfig/local-aar.gradle"
+
+dependencies {
+    implementation(ExternalLib.coroutines)
+    implementation(ExternalLib.coroutinesAndroid)
+    implementation(ExternalLib.timber)
+    implementation(ExternalLib.threeTenABP)
+    implementation(ExternalLib.i18nLanguagePack)
+
+    implementation customModulePath(CoreModules.core)
+}

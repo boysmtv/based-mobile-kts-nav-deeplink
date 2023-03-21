@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ Copyright © 2022 PT Bank Mandiri (Persero) Tbk.
+  ~
+  ~ Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:color="@color/colorButtonPressedRed"
+        android:state_pressed="true" />
+    <item android:color="@color/colorBlankSpace" />
+</selector>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--region NumPad-->
+    <attr name="padStyle" format="integer">
+        <enum name="number" value="0" />
+        <enum name="text" value="1" />
+        <enum name="icon" value="2" />
+    </attr>
+
+    <declare-styleable name="InputPad">
+        <attr name="padLabel" format="string" />
+        <attr name="padStyle" />
+        <attr name="padIcon" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NumPad">
+        <attr name="leftButton" format="boolean" />
+        <attr name="leftButtonLabel" format="reference|string" />
+        <attr name="deleteIcon" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NumPadRandom">
+        <attr name="leftButtonRandom" format="boolean" />
+        <attr name="leftButtonLabelRandom" format="reference|string" />
+        <attr name="deleteIconRandom" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PadIndicators">
+        <attr name="pinLength" format="integer" />
+        <attr name="indicatorSizeLength" format="reference|integer" />
+        <attr name="indicatorSpace" format="reference|integer" />
+        <attr name="indicatorsPadding" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MandiriNumeric">
+        <attr name="otpLength" format="integer" />
+        <attr name="fieldPadding" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MandiriTextFieldOtp">
+        <attr name="error" format="string" />
+        <attr name="isBold" format="boolean" />
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <!--region InstaDotView -->
+    <declare-styleable name="InstaDotView">
+        <attr name="dotActiveColor" format="color" />
+        <attr name="dotInactiveColor" format="color" />
+        <attr name="dotActiveSize" format="dimension" />
+        <attr name="dotInactiveSize" format="dimension" />
+        <attr name="dotMediumSize" format="dimension" />
+        <attr name="dotSmallSize" format="dimension" />
+        <attr name="dotMargin" format="dimension" />
+        <attr name="dotsVisible" format="integer" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <!--region SwitchButton -->
+    <declare-styleable name="MandiriSwitchButton">
+        <attr name="selectFirst" format="string" />
+        <attr name="selectSecond" format="string" />
+        <attr name="select" format="string" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <!--region Mandiri EditField-->
+    <declare-styleable name="MandiriTextField">
+        <attr name="enabledValidatorScreen" format="boolean" />
+        <attr name="showToggle" format="boolean" />
+        <attr name="showClearText" format="boolean" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="digits" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="isPassword" format="boolean" />
+        <attr name="isRevertPassword" format="boolean" />
+        <attr name="android:longClickable" format="boolean" />
+        <attr name="isDropdown" format="boolean" />
+        <attr name="allowSpecialCharacter" format="boolean" />
+        <attr name="setError" format="string" />
+        <attr name="isBoldText" format="boolean" />
+        <attr name="passwordMinCharacter" format="string" />
+        <attr name="passwordMinRequirementCharacter" format="string" />
+        <attr name="passwordSameRepeatedCharacter" format="string" />
+        <attr name="passwordConsecutiveCharacter" format="string" />
+        <attr name="indicatorLineColor" format="color" />
+        <attr name="isShowOptionalLabel" format="boolean" />
+        <attr name="isClearClips" format="boolean" />
+        <attr name="android:minLines" />
+        <attr name="android:maxLines" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <!--Error View-->
+    <declare-styleable name="ErrorView">
+        <attr name="layout_image_width" format="dimension" />
+        <attr name="layout_image_height" format="dimension" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <declare-styleable name="MandiriTextViewTransaction">
+        <attr name="labelTitle" format="string" />
+        <attr name="labelValue" format="string" />
+        <attr name="labelDescription" format="string" />
+    </declare-styleable>
+</resources>

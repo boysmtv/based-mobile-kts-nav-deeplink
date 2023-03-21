@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020 PT Bank Mandiri (Persero) Tbk.
+  ~
+  ~ Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/dialog_logout_parent_card_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dialog_logout_parent_card_margin"
+        app:cardCornerRadius="@dimen/dialog_logout_parent_card_radius"
+        app:cardElevation="@dimen/dialog_logout_parent_card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dialog_logout_content_padding">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_dialog_three_action_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/colorBlackTitleDialogLogout"
+                android:gravity="center"
+                android:textSize="@dimen/dialog_logout_title_text_size" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_dialog_three_action_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialog_logout_desc_margin_top"
+                android:textSize="@dimen/dialog_logout_desc_text_size"
+                android:gravity="center"
+                android:textColor="@color/colorGreyDescDialogLogout" />
+
+            <RelativeLayout
+                android:id="@+id/rl_dialog_three_action_primary_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_outlineblue"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dialog_logout_primary_button_parent_margin_top"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_dialog_three_action_primary_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/dialog_logout_primary_margin_start"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_dialog_three_action_primary_button_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textAlignment="center"
+                    android:paddingVertical="@dimen/dialog_logout_primary_button_padding_vertical"
+                    android:textColor="@color/colorBluePrimaryButtonLabelDialogLogout"
+                    android:textSize="@dimen/dialog_logout_primary_button_text_size" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_dialog_three_action_secondary_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_outlineblue"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dialog_logout_secondary_button_parent_margin_top"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_dialog_three_action_secondary_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/dialog_logout_secondary_margin_start"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_dialog_three_action_secondary_button_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/nunito_bold"
+                    android:paddingVertical="@dimen/dialog_logout_secondary_button_padding_vertical"
+                    android:textColor="@color/colorBlueSecondaryButtonLabelDialogLogout"
+                    android:textSize="@dimen/dialog_logout_secondary_button_text_size" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_dialog_three_action_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dialog_logout_back_button_text_size"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/colorBlueBackButtonLabelDialogLogout"
+                android:layout_marginTop="@dimen/dialog_logout_back_button_margin_top"
+                android:text="@string/dialog_logout_tv_back"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

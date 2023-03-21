@@ -61,6 +61,36 @@ object BuildPlugins {
     const val hiltPlugin = "com.google.dagger.hilt.android"
 }
 
+object Core {
+
+    private object Versions {
+        const val appcompat = "1.1.0"
+        const val coreKtx = "1.0.2"
+        const val biometric = "1.2.0-alpha03"
+        const val appDynamicsRuntime = "21.5.0"
+        const val playServicesBase = "17.5.0"
+        const val firebaseCrashlytics = "17.3.0"
+        const val firebaseDynamicLinksPlugin = "19.1.1"
+        const val legacySupportVersion = "1.0.0"
+        const val fragmentKtx = "1.3.3"
+    }
+
+    const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
+    const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
+    const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
+    const val biometric = "androidx.biometric:biometric:${Versions.biometric}"
+    const val appDynamicsRuntime =
+        "com.appdynamics:appdynamics-runtime:${Versions.appDynamicsRuntime}"
+    const val playServicesBase =
+        "com.google.android.gms:play-services-base:${Versions.playServicesBase}"
+    const val firebaseCrashlytics =
+        "com.google.firebase:firebase-crashlytics:${Versions.firebaseCrashlytics}"
+    const val firebaseDynamicLinks =
+        "com.google.firebase:firebase-dynamic-links-ktx:${Versions.firebaseDynamicLinksPlugin}"
+    const val legacySupport = "androidx.legacy:legacy-support-v4:${Versions.legacySupportVersion}"
+    const val fragmentKtx = "androidx.fragment:fragment-ktx:${Versions.fragmentKtx}"
+}
+
 /**
  * To define external lib
  */
@@ -200,7 +230,6 @@ object Network {
     const val retrofitConverterMoshi = "com.squareup.retrofit2:converter-moshi:${Versions.retrofit}"
     const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
     const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp}"
-    const val okhttpSse = "com.squareup.okhttp3:okhttp-sse:${Versions.okhttp}"
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
     const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glide}"
     const val glideOkHttpIntegration =
@@ -288,7 +317,16 @@ object Presentation {
 }
 
 object CoreModules {
+    const val app = ":app"
     const val core = ":core"
+    const val coreEntity = ":core-entity"
+    const val coreUi = ":core-ui"
+    const val coreNav = ":core-navigation"
+}
+
+object ApiModules {
+    const val apiAuth = ":api-auth"
+    const val apiSplash = ":api-splash"
 }
 
 fun DependencyHandlerScope.testingDependencies() {

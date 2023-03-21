@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright © 2022 PT Bank Mandiri (Persero) Tbk.
+*
+* Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+* Proprietary and confidential
+*
+-->
+<resources>
+    <!-- Region Source of Login -->
+    <string name="auth_title_welcome_bds">loginGBLoginTitleLabel</string>
+    <string name="auth_label_login">loginGBLoginSubtitleLabel</string>
+    <string name="auth_password">loginGBPasswordLabel</string>
+    <string name="auth_login">loginGBConfirmationLabel</string>
+    <string name="auth_username_hint">loginGBNipLabel</string>
+    <string name="auth_segment_label_login_gb">loginGBTabButtonContainer</string>
+    <string name="auth_segment_label_login_customer">loginCustomerTabButtonContainer</string>
+    <string name="auth_label_btn_back">loginGBMultiDeviceBackButton</string>
+    <!--endregion-->
+</resources>

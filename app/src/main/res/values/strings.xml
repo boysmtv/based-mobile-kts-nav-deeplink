@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">learn-based</string>
     <string name="title_core">core</string>
+    <string name="title_api_splash">api-splash</string>
+    <string name="title_core_ui">core-ui</string>
+    <string name="title_core_navigation">core-navigation</string>
+    <string name="title_feature_auth">feature-auth</string>
+    <string name="title_api_auth">api-auth</string>
+    <string name="title_core_entity">core-entity</string>
 </resources>

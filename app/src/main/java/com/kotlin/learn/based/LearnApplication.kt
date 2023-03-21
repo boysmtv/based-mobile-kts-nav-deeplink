@@ -9,6 +9,12 @@ package com.kotlin.learn.based
 
 import android.app.Application
 import com.jakewharton.threetenabp.AndroidThreeTen
+import com.kotlin.learn.core.common.presentation.events.EventListener
+import com.kotlin.learn.core.common.presentation.widget.LayoutInflaterInterceptor
+import com.kotlin.learn.core.common.util.AppVersion
+import com.kotlin.learn.core.data.LanguagePackProvider
+import com.kotlin.learn.core.data.SupportedLanguage
+import com.kotlin.learn.core.data.Translator
 import dagger.hilt.android.HiltAndroidApp
 import io.github.inflationx.viewpump.ViewPump
 import timber.log.Timber
@@ -18,36 +24,37 @@ import javax.inject.Inject
 @HiltAndroidApp
 class LearnApplication : Application() {
 
-//    @Inject
-//    lateinit var eventListener: EventListener
+    @Inject
+    lateinit var eventListener: EventListener
 
-//    @Inject
-//    lateinit var languagePackProvider: LanguagePackProvider
+    @Inject
+    lateinit var languagePackProvider: LanguagePackProvider
 
     override fun onCreate() {
         super.onCreate()
-//        AppVersion.VERSION_NAME = BuildConfig.VERSION_NAME
-//        AppVersion.VERSION_CODE = BuildConfig.VERSION_CODE
+        AppVersion.VERSION_NAME = BuildConfig.VERSION_NAME
+        AppVersion.VERSION_CODE = BuildConfig.VERSION_CODE
 
         AndroidThreeTen.init(this)
         if (BuildConfig.DEBUG) Timber.plant(DebugTree())
-//        initLibrary()
-//        ViewPump.init(
-//            ViewPump.builder()
-//                .addInterceptor(LayoutInflaterInterceptor())
-//                .build()
-//        )
+        initLibrary()
+        ViewPump.init(
+            ViewPump.builder()
+                .addInterceptor(LayoutInflaterInterceptor())
+                .build()
+        )
     }
 
-//    private fun initLibrary() {
-//        val supportedLanguage = getSupportedLanguage()
-//        Translator.init(languagePackProvider, supportedLanguage)
-//    }
-//
-//    private fun getSupportedLanguage(): SupportedLanguage {
+    private fun initLibrary() {
+        val supportedLanguage = getSupportedLanguage()
+        Translator.init(languagePackProvider, supportedLanguage)
+    }
+
+    private fun getSupportedLanguage(): SupportedLanguage {
 //        return if (languagePackProvider is SplashLanguagePackRepository &&
 //            (languagePackProvider as SplashLanguagePackRepository).getDefaultLanguage() == LANGUAGE_EN_US
 //        ) SupportedLanguage.ENGLISH
 //        else SupportedLanguage.INDONESIAN
-//    }
+        return SupportedLanguage.INDONESIAN
+    }
 }

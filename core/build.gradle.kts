@@ -8,6 +8,11 @@ plugins {
 android {
     compileSdk = (ConfigData.compileSdkVersion)
 
+    defaultConfig {
+        minSdk = (ConfigData.minSdkVersion)
+        targetSdk = (ConfigData.targetSdkVersion)
+    }
+
     buildFeatures {
         viewBinding = true
     }
@@ -31,6 +36,8 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*jar"))))
 
+    implementation(project(CoreModules.coreUi))
+    implementation(project(CoreModules.coreEntity))
     implementation(Jetpack.roomRuntime)
     implementation(Jetpack.room)
     implementation(Jetpack.lifecycleLiveData)
@@ -49,7 +56,6 @@ dependencies {
     implementation(Network.retrofitConverterMoshi)
     implementation(Network.okhttp)
     implementation(Network.okhttpLogging)
-    implementation(Network.okhttpSse)
     implementation(Network.glide)
     kapt(Network.glideCompiler)
     api(Network.glideOkHttpIntegration) { exclude(group = "glide-parent") }

@@ -1,0 +1,18 @@
+artifactory {
+    artifactoryPublish.dependsOn('build')
+
+    publishing {
+        publications {
+            aar(MavenPublication) {
+                groupId = Artifactory.ARTIFACTORY_PUBLISH_GROUP_ID
+                artifactId = project.getName()
+                version = "1.0.0-SNAPSHOT"
+                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+            }
+        }
+    }
+
+    artifactoryPublish {
+        publications(publishing.publications.aar)
+    }
+}

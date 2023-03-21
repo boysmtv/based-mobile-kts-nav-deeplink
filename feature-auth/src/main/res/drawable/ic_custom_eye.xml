@@ -1,0 +1,24 @@
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi">
+
+    <item
+        android:id="@+id/visible"
+        android:drawable="@drawable/ic_eyes"
+        android:state_checked="true"/>
+
+    <item
+        android:id="@+id/masked"
+        android:drawable="@drawable/design_ic_visibility_off"/>
+
+    <transition
+        android:drawable="@drawable/ic_eyes"
+        android:fromId="@id/masked"
+        android:toId="@id/visible"/>
+
+    <transition
+        android:drawable="@drawable/avd_hide_password"
+        android:fromId="@id/visible"
+        android:toId="@id/masked"/>
+
+</animated-selector>

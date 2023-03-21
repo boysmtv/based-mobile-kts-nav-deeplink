@@ -1,0 +1,20 @@
+apply from: "$rootDir/buildConfig/local-aar-config.gradle"
+
+ext.customModulePath = { moduleName ->
+    if (useAARForDevBuild && !inDevModules.contains("$moduleName")) {
+        return "${localAARPublishConfig.groupId}$moduleName:${localAARPublishConfig.version}"
+    } else {
+        return project("$moduleName")
+    }
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    resolutionStrategy.dependencySubstitution {
+        if (useAARForDevBuild) {
+            inDevModules.each { moduleName ->
+                substitute module("${localAARPublishConfig.groupId}$moduleName:${localAARPublishConfig.version}") with project(moduleName)
+            }
+        }
+    }
+}

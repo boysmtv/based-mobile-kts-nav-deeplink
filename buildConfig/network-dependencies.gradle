@@ -1,0 +1,7 @@
+dependencies {
+    implementation Network.moshiKtx
+    implementation Network.retrofit
+    implementation Network.retrofitConverterMoshi
+    implementation Network.okhttp
+    implementation Network.okhttpLogging
+}

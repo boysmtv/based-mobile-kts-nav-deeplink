@@ -1,0 +1,17 @@
+<!--
+* Copyright © 2022 PT Bank Mandiri (Persero) Tbk.
+*
+* Unauthorized copying, publishing of this file, via any medium is strictly prohibited
+* Proprietary and confidential
+*
+-->
+
+<resources>
+    <!--fragment auth-->
+    <integer name="auth_tv_title_auth_textFontWeight">700</integer>
+    <integer name="auth_tv_header_auth_textFontWeight">700</integer>
+    <integer name="auth_tv_otp_length">6</integer>
+    <integer name="auth_segment_button_position">0</integer>
+    <integer name="auth_segemnt_button_duration_animation">1000</integer>
+    <!--endregion-->
+</resources>
