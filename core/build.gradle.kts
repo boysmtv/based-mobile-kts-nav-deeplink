@@ -5,19 +5,24 @@ plugins {
     kotlin(BuildPlugins.kapt)
 }
 
-android {
-    compileSdk = (ConfigData.compileSdkVersion)
+apply {
+    from("$rootDir/buildConfig/common-builder.gradle")
+    from("$rootDir/buildConfig/local-aar-config.gradle")
+    from("$rootDir/buildConfig/local-aar.gradle")
+    from("$rootDir/buildConfig/dagger-dependencies.gradle")
+    from("$rootDir/buildConfig/hilt-builder.gradle")
+}
 
-    defaultConfig {
-        minSdk = (ConfigData.minSdkVersion)
-        targetSdk = (ConfigData.targetSdkVersion)
-    }
+val customModulePath: groovy.lang.Closure<Any> by ext
+
+android {
 
     buildFeatures {
         viewBinding = true
     }
 
     buildTypes {
+        getByName("debug")
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
@@ -36,8 +41,6 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*jar"))))
 
-    implementation(project(CoreModules.coreUi))
-    implementation(project(CoreModules.coreEntity))
     implementation(Jetpack.roomRuntime)
     implementation(Jetpack.room)
     implementation(Jetpack.lifecycleLiveData)
@@ -82,6 +85,9 @@ dependencies {
 
     // Presentation
     implementation(Presentation.viewPump)
+
+    implementation(customModulePath(CoreModules.coreUi))
+    implementation(customModulePath(CoreModules.coreEntity))
 
     //Document
     implementation(ExternalLib.compressor)

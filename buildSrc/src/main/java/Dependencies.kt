@@ -50,6 +50,7 @@ object BuildPlugins {
         "com.google.gms:google-services:${Versions.googlePlayService}"
     const val googlePlayService = "com.google.gms.google-services"
     const val jacocoCore = "org.jacoco:org.jacoco.core:${Versions.jacocoVersion}"
+    const val appDynamicsAdeum = "adeum"
     const val appDynamicsPlugin =
         "com.appdynamics:appdynamics-gradle-plugin:${Versions.appDynamics}"
     const val firebaseCrashlyticsPlugin =
@@ -128,9 +129,6 @@ object ExternalLib {
         const val iText = "5.5.10"
     }
 
-    const val dagger = "com.google.dagger:dagger:${Versions.dagger}"
-    const val hilt = "com.google.dagger:hilt-android:${Versions.dagger}"
-    const val hiltCompiler = "com.google.dagger:hilt-compiler:${Versions.dagger}"
     const val hiltAndroid = "com.google.dagger:hilt-android:${Versions.dagger}"
     const val hiltAndroidCompiler = "com.google.dagger:hilt-android-compiler:${Versions.dagger}"
     const val threeTenABP = "com.jakewharton.threetenabp:threetenabp:${Versions.threeTenABP}"
@@ -327,6 +325,17 @@ object CoreModules {
 object ApiModules {
     const val apiAuth = ":api-auth"
     const val apiSplash = ":api-splash"
+}
+
+
+object FeatureModules {
+    const val featureAuth = ":feature-auth"
+    const val featureSplash = ":feature-splash"
+}
+
+object BuildTypes {
+    const val DEBUG = "debug"
+    const val RELEASE = "release"
 }
 
 fun DependencyHandlerScope.testingDependencies() {

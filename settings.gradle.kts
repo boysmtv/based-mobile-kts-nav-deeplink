@@ -1,29 +1,17 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-        maven {
-            url = uri("https://jitpack.io")
-        }
-    }
+apply {
+    from("$rootDir/buildConfig/settings-helper.gradle")
 }
-dependencyResolutionManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-        maven {
-            url = uri("https://jitpack.io")
-        }
-    }
-}
+
+val includeIfEnabled = extra.get("includeIfEnabled") as groovy.lang.Closure<*>
+val includeAlways = extra.get("includeAlways") as groovy.lang.Closure<*>
+
 rootProject.name = "learn-based"
-include(":app")
-include(":core")
-include(":core-ui")
-include(":core-navigation")
-include(":api-splash")
-include(":api-auth")
-include(":feature-auth")
-include(":core-entity")
+
+includeAlways(":app")
+includeIfEnabled(":core")
+includeIfEnabled(":core-ui")
+includeIfEnabled(":core-entity")
+includeIfEnabled(":core-navigation")
+includeIfEnabled(":api-splash")
+includeIfEnabled(":api-auth")
+includeIfEnabled(":feature-auth")

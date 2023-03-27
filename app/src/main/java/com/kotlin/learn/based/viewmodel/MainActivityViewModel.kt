@@ -12,6 +12,9 @@ import com.kotlin.learn.based.IIsolatedService
 import com.kotlin.learn.based.util.Constants
 import com.kotlin.learn.core.common.entity.Result
 import com.kotlin.learn.core.common.util.PreferenceConstants.Auth.PREF_KEY_APP_IDLE_TIME
+import com.kotlin.learn.core.entity.auth.AuthIdentity
+import com.kotlin.learn.core.entity.auth.EmptyResponse
+import com.kotlin.learn.core.entity.auth.LogoutResponse
 import com.kotlin.learn.core.util.Constants.DEFAULT_APPLICATION_IDLE_TIME
 import com.kotlin.learn.core.util.Constants.ZERO_LONG
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -22,22 +25,15 @@ import javax.inject.Inject
 @HiltViewModel
 class MainActivityViewModel @Inject constructor(
     private val getAuthRefreshTokenIdentityUseCase: GetAuthRefreshTokenIdentityUseCase,
-    private val getBalanceUseCase: GetBalanceUseCase,
-    private val getReservationStateEventUseCase: GetReservationStateEventUseCase,
     private val postForceLogoutUseCase: PostForceLogoutUseCase,
     private val loginDataUseCase: LoadLoginDataUseCase,
     private val postLogoutUseCase: PostLogoutUseCase,
-    private val postLogoutDualScreenUseCase: PostLogoutDualScreenUseCase,
     private val loadUseridUseCase: LoadUserIdUseCase,
-    private val loadAppConfigUseCase: LoadAppConfigUseCase,
     internal val loadRefreshTokenTimestampUseCase: LoadRefreshTokenTimestampUseCase,
     private val saveRefreshTokenTimestampUseCase: SaveRefreshTokenTimestampUseCase,
     private val loadFullnameUseCase: LoadFullnameUseCase,
     private val loadUserTypeUseCase: LoadUserTypeUseCase,
-    internal val loadGbLoginType: LoadGbLoginType,
-    internal val loadUserType: LoadUserTypeUseCase,
-    internal val saveGbLoginType: SaveGbLoginType,
-    internal val removeContextCacheUseCase: RemoveContextCacheUseCase
+    internal val loadUserType: LoadUserTypeUseCase
 ) : ViewModel() {
 
     private val _refreshToken = MutableLiveData<Result<AuthIdentity>>()

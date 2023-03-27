@@ -1,25 +1,59 @@
 plugins {
     id(BuildPlugins.androidApplication)
+    id(BuildPlugins.appDynamicsAdeum)
+    id(BuildPlugins.firebaseCrashlytics)
+    id(BuildPlugins.googlePlayService)
     kotlin(BuildPlugins.kotlinAndroid)
     id(BuildPlugins.kotlinParcelize)
     kotlin(BuildPlugins.kapt)
     id(BuildPlugins.hiltPlugin)
 }
 
+apply {
+    from("$rootDir/buildConfig/common-builder.gradle")
+    from("$rootDir/buildConfig/feature-builder.gradle")
+    from("$rootDir/buildConfig/api-builder.gradle")
+    from("$rootDir/buildConfig/app-dependencies.gradle")
+    from("$rootDir/buildConfig/network-dependencies.gradle")
+    from("$rootDir/buildConfig/dagger-dependencies.gradle")
+    from("$rootDir/buildConfig/jetpack-dependencies.gradle")
+    from("$rootDir/buildConfig/reactive-dependencies.gradle")
+    from("$rootDir/gradle/install-git-hooks.gradle")
+}
+
 val customModulePath: groovy.lang.Closure<Any> by ext
 
 android {
-    compileSdk = (ConfigData.compileSdkVersion)
+    buildFeatures {
+        viewBinding = true
+    }
+
+    packagingOptions {
+        resources.pickFirsts.add("META-INF/*")
+        resources.pickFirsts.add("META-INF/MANIFEST.MF")
+    }
 
     defaultConfig {
         applicationId = "com.kotlin.learn.based"
-        minSdk = (ConfigData.minSdkVersion)
-        targetSdk = (ConfigData.targetSdkVersion)
-        versionCode = ConfigData.versionCode
-        versionName = ConfigData.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags += listOf("")
+                arguments += listOf("-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON")
+            }
+        }
+
+        testInstrumentationRunnerArguments["listener"] = "leakcanary.FailTestOnLeakRunListener"
     }
+
+    externalNativeBuild {
+        cmake {
+            path("CMakeLists.txt")
+        }
+    }
+    ndkVersion = "22.0.7026061"
 
     buildTypes {
         getByName("release") {
@@ -30,36 +64,13 @@ android {
             )
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        kotlinOptions {
-            jvmTarget = "1.8"
-        }
-    }
-
-    buildFeatures {
-        viewBinding = true
-    }
-
-    packagingOptions {
-        resources.pickFirsts.add("META-INF/*")
-        resources.pickFirsts.add("META-INF/MANIFEST.MF")
-    }
 }
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*jar"))))
 
-    implementation(project(CoreModules.core))
-    implementation(project(CoreModules.coreUi))
-    implementation(project(CoreModules.coreNav))
-    implementation(project(CoreModules.coreEntity))
-    implementation(project(ApiModules.apiAuth))
-
     implementation(Core.appDynamicsRuntime)
+    implementation(Core.firebaseCrashlytics)
     implementation(Jetpack.roomRuntime)
     implementation(Jetpack.room)
     implementation(Jetpack.lifecycleLiveData)
@@ -75,8 +86,6 @@ dependencies {
     implementation(Network.okhttp)
     implementation(Network.okhttpLogging)
     implementation(Network.glide)
-    implementation(project(mapOf("path" to ":core-navigation")))
-    implementation(project(mapOf("path" to ":core-entity")))
     kapt(Network.glideCompiler)
     api(Network.glideOkHttpIntegration) { exclude(group = "glide-parent") }
     kapt(Network.moshiKtxCodegen)

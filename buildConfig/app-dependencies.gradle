@@ -1,0 +1,16 @@
+apply from: "$rootDir/buildConfig/local-aar.gradle"
+
+dependencies {
+    // Api Dependencies
+    implementation customModulePath(ApiModules.apiAuth)
+    implementation customModulePath(ApiModules.apiSplash)
+    // Feature Dependencies
+    implementation customModulePath(FeatureModules.featureAuth)
+    implementation customModulePath(FeatureModules.featureSplash)x
+
+    // Core Dependencies
+    implementation customModulePath(CoreModules.coreEntity)
+    implementation customModulePath(CoreModules.core)
+    implementation customModulePath(CoreModules.coreUi)
+    implementation customModulePath(CoreModules.coreNav)
+}

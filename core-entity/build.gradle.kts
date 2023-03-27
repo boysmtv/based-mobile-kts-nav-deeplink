@@ -19,7 +19,6 @@ apply {
 }
 
 dependencies {
-    implementation(project(CoreModules.coreUi))
     implementation(Network.moshiKtx)
     kapt(Network.moshiKtxCodegen)
 }

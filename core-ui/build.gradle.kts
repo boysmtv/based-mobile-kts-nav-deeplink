@@ -36,6 +36,7 @@ dependencies {
     implementation(ExternalLib.threeTenABP)
     implementation(ExternalLib.flexBox)
     api(ExternalLib.mpChart)
+    implementation(customModulePath(CoreModules.coreEntity))
     implementation(Core.appcompat)
     implementation(Presentation.material)
     implementation(Presentation.constraintLayout)

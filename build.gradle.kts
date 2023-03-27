@@ -1,4 +1,10 @@
 buildscript {
+    val fl = rootProject.file("api.properties")
+    (fl.exists()).let {
+        fl.forEachLine {
+            rootProject.extra.set(it.split("=")[0], it.split("=")[1])
+        }
+    }
 
     repositories {
         gradlePluginPortal()
@@ -19,19 +25,31 @@ buildscript {
         classpath(BuildPlugins.firebaseCrashlyticsPlugin)
         classpath(BuildPlugins.googlePlayServicePlugin)
         classpath(BuildPlugins.hiltGradlePlugin)
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
     }
-
 }
 
 allprojects {
     apply(plugin = BuildPlugins.jfrogPlugin)
     apply(plugin = BuildPlugins.mavenPublish)
-    apply(plugin = BuildPlugins.detektPlugin)
     apply {
         from("$rootDir/buildConfig/local-aar-config.gradle")
         from("$rootDir/buildConfig/local-aar.gradle")
     }
+    apply(plugin = "io.gitlab.arturbosch.detekt")
+
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
+}
+
+apply {
+    from("$rootDir/buildConfig/local-aar-config.gradle")
+    from("$rootDir/buildConfig/local-aar.gradle")
 }
 
 tasks.register("clean", Delete::class) {
