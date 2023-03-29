@@ -7,7 +7,6 @@
  */
 package com.kotlin.learn.core.entity.auth
 
-import com.kotlin.learn.core.util.Constants.EMPTY_STRING
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 

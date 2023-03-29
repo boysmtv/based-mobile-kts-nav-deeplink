@@ -5,8 +5,6 @@ apply {
 val includeIfEnabled = extra.get("includeIfEnabled") as groovy.lang.Closure<*>
 val includeAlways = extra.get("includeAlways") as groovy.lang.Closure<*>
 
-rootProject.name = "learn-based"
-
 includeAlways(":app")
 includeIfEnabled(":core")
 includeIfEnabled(":core-ui")

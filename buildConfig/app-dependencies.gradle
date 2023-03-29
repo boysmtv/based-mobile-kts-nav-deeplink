@@ -6,7 +6,7 @@ dependencies {
     implementation customModulePath(ApiModules.apiSplash)
     // Feature Dependencies
     implementation customModulePath(FeatureModules.featureAuth)
-    implementation customModulePath(FeatureModules.featureSplash)x
+//    implementation customModulePath(FeatureModules.featureSplash)
 
     // Core Dependencies
     implementation customModulePath(CoreModules.coreEntity)

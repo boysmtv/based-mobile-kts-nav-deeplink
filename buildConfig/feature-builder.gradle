@@ -1,8 +1,8 @@
 apply plugin: BuildPlugins.navSafeArgs
-apply plugin: 'dagger.hilt.android.plugin'
 
 apply from: "$rootDir/buildConfig/core-builder.gradle"
 apply from: "$rootDir/buildConfig/local-aar.gradle"
+apply from: "$rootDir/buildConfig/hilt-builder.gradle"
 
 dependencies {
     implementation Core.coreKtx

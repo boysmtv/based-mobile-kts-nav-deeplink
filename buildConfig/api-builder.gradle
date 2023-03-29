@@ -1,3 +1,3 @@
 apply from: "$rootDir/buildConfig/core-builder.gradle"
 apply from: "$rootDir/buildConfig/network-dependencies.gradle"
-apply plugin: 'dagger.hilt.android.plugin'
+apply from: "$rootDir/buildConfig/hilt-builder.gradle"

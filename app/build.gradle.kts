@@ -90,10 +90,6 @@ dependencies {
     api(Network.glideOkHttpIntegration) { exclude(group = "glide-parent") }
     kapt(Network.moshiKtxCodegen)
 
-    // Dependency Injection
-    implementation(ExternalLib.hiltAndroid)
-    kapt(ExternalLib.hiltAndroidCompiler)
-
     // External
     implementation(ExternalLib.coroutines)
     implementation(ExternalLib.coroutinesAndroid)
@@ -132,8 +128,6 @@ dependencies {
 
     // Presentation
     implementation(Presentation.viewPump)
-
-    androidTestImplementation(ExternalLib.magsik)
     testingDependencies()
 }
 
